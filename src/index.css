@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Colours */
+  --p1: #9E421B;
+  --p2: #EED7C5;
+  --p3: #F4EDE7;
+
+  /* Sizes */
+  --parSize: 1.2vw;
+  --headingSize: 3vw;
+
+  /* Fonts */
+  --primaryFont: "Josefin Sans", sans-serif;
+  --secondaryFont: "Raleway", sans-serif;
+}
+
+body {
+  
+}
+
+p {
+  margin-bottom: 0;
+  font-family: var(--secondaryFont);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}

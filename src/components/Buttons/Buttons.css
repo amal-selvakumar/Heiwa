@@ -1,0 +1,30 @@
+button {
+    appearance: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.button-common {
+    color: #ffffff;
+    background-color: var(--p1);
+    cursor: pointer;
+}
+
+.button-small {
+    width: 8vw;
+    padding: 2vmin 0;
+    font-size: 1.5vmin;
+}
+
+.button-medium {
+    padding: 1.5vmin 0;
+    width: 10vw;
+    font-size: 2vmin;
+}
+
+.button-large {
+
+    width: 14vw;
+    font-size: 2.5vmin;
+}
