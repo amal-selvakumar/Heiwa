@@ -1,30 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;  
-  font-family: "Josefin Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
+:root {
   /* Colours */
   --p1: #9E421B;
   --p2: #EED7C5;
   --p3: #F4EDE7;
+  --p4: #CC8874;
 
   /* Sizes */
   --parSize: 1.2vw;
   --headingSize: 3vw;
+  --h4Size: 1.7vw;
 
   /* Fonts */
   --primaryFont: "Josefin Sans", sans-serif;
   --secondaryFont: "Raleway", sans-serif;
 }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
-  
+  font-family: "Josefin Sans", sans-serif;
+  height: 100vh;
 }
 
 p {
@@ -40,4 +47,38 @@ code {
 a {
   text-decoration: none;
   color: #ffffff;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+
+/* Customizing the scrollbar track */
+::-webkit-scrollbar {
+  width: 3px;
+  /* Set the width of the scrollbar */
+}
+
+/* Customizing the scrollbar handle or thumb */
+::-webkit-scrollbar-thumb {
+  background-color: var(--p1);
+  /* Set the color of the scrollbar handle */
+  border-radius: 2px;
+  /* Set the border radius to make it rounded */
+}
+
+/* Customizing the scrollbar track when the handle is being dragged */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--p1);
+  /* Set a different color when the handle is hovered */
+}
+
+/* Customizing the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  /* Set the color of the scrollbar track */
+}
+
+/* Customizing the scrollbar corner */
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+  /* Set the color of the scrollbar corner */
 }
