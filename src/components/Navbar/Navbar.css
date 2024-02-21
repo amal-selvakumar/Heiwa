@@ -2,12 +2,12 @@
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 2;
+    z-index: 5;
     display: flex;
     justify-content: space-between;
     padding: 0 2vw;
     height: 10vh;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-logo {
@@ -33,6 +33,28 @@
     margin-right: 2vw;
     list-style-type: none;
     font-size: 2vmin;
+}
+
+/* Style for the sliding line */
+.navlinks li {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.navlinks li::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--p1);
+    transition: width 0.3s ease;
+}
+
+.navlinks li:hover::before {
+    width: 100%;
 }
 
 .colour {

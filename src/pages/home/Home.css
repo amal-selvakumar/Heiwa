@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .carousel-welcome-text-container {
@@ -11,7 +12,7 @@
 }
 
 .welcome-texts {
-    padding-top: 1%;
+    padding-top: 5%;
     width: 200%;
     display: flex;
     transition: transform 1s ease-in-out;
@@ -35,10 +36,12 @@
     margin-top: 1%;
     font-family: var(--secondaryFont);
     font-size: var(--parSize);
+    line-height: 1.4;
 }
 
 .carousel-dots {
     margin-top: 1%;
+    padding-bottom: 3%;
     text-align: center;
 }
 
@@ -120,6 +123,7 @@
 .text-section p {
     font-size: var(--parSize);
     padding: 1vw 12vw;
+    line-height: 1.8;
 }
 
 /* OUR SERVICES SECTION */
@@ -162,8 +166,7 @@
     font-weight: 400;
     text-align: center;
     position: relative;
-    z-index: 1; 
-    text-align: center;
+    z-index: 1;
 }
 
 .our-services-cards {
@@ -192,7 +195,8 @@
     text-align: center;
 }
 
-.prevButton, .nextButton {
+.prevButton,
+.nextButton {
     width: 2vmax;
     height: 3.5vmax;
     background-color: #D9D9D9;
@@ -213,3 +217,153 @@
 }
 
 
+.works-mission-sections-combo {
+    position: relative;
+}
+
+.works-mission-sections-combo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/our-services-background-svg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    opacity: 0.25;
+    z-index: 2;
+}
+
+/* How It Works */
+
+.how-it-works-section {
+    padding: 4vw 8vw;
+}
+
+.how-it-works-section h2 {
+    font-size: var(--headingSize);
+    font-weight: 400;
+    text-align: center;
+}
+
+.how-it-works {
+    padding-top: 4vw;
+}
+
+.upper-text-container {
+    display: flex;
+    gap: 15%;
+    padding: 0 5vw;
+}
+
+.upper-text-container p {
+    width: 25%;
+}
+
+.work-flow-image {
+    width: 100%;
+}
+
+.work-flow-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.lower-text-container {
+    display: flex;
+    gap: 8%;
+}
+
+.lower-text-container p {
+    width: 20%;
+}
+
+.upper-text-container p,
+.lower-text-container p {
+    font-size: var(--parSize);
+    text-align: center;
+}
+
+/* MISSION VISION SECTION */
+
+.mission-vision-section {
+    padding: 4vw 15vw;
+    background-color: var(--p2);
+}
+
+.mission-vision-cards {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20%;
+}
+
+.mission-card,
+.vision-card {
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20% 15% 10% 15%;
+    border-radius: 50% 50% 0 0;
+    z-index: 3;
+}
+
+.mission-card {
+    background-image: url('../../assets/our-mission-icon.png');
+}
+
+.vision-card {
+    background-image: url('../../assets/our-vision-icon.png');
+}
+
+.mission-vision-text p {
+    font-size: var(--parSize);
+    line-height: 1.4;
+    padding: 10% 0;
+    height: 22vh;
+
+}
+
+.down-apostrophes {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.up-apostrophes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.down-apostrophes img,
+.up-apostrophes img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mission-vision-heading h4 {
+    font-size: var(--h4Size);
+    text-align: center;
+    padding-top: 10%;
+}
+
+/* WHY US SECTION */
+
+.why-us-section {
+    padding: 5vw 0;
+    text-align: center;
+}
+
+.why-us-section h2 {
+    font-size: var(--headingSize);
+    font-weight: 400;
+}
+
+.why-us-section p {
+    font-size: var(--parSize);
+    padding: 1vw 12vw;
+    line-height: 1.8;
+}

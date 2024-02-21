@@ -1,59 +1,14 @@
-
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
+import downApostrophes from "../../assets/down-apostrophes.svg";
+import upApostrophes from "../../assets/up-apostrophes.svg";
+import workflow from "../../assets/workflow.svg";
 import Buttons from "../../components/Buttons/Buttons";
+import { images1, images2, serviceCards } from "../../components/Constants";
+import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import "./Home.css";
-
-const images1 = [
-  require("../../assets/landing-images/1-houseboat-2031055_1920.jpg"),
-  require("../../assets/landing-images/2-mountain-7073990_1920.jpg"),
-  require("../../assets/landing-images/3-Rectangle 38.png"),
-  require("../../assets/landing-images/4-stones--2040340_1920.jpg"),
-];
-
-const images2 = [
-  require("../../assets/landing-images/4-stones--2040340_1920.jpg"),
-  require("../../assets/landing-images/3-Rectangle 38.png"),
-  require("../../assets/landing-images/2-mountain-7073990_1920.jpg"),
-  require("../../assets/landing-images/1-houseboat-2031055_1920.jpg"),
-];
-
-const serviceCards = [
-  {
-    image: require("../../assets/service-cards/Rectangle 21.png"),
-    name: "Ayurveda Retreat",
-  },
-  {
-    image: require("../../assets/service-cards/Rectangle 22.png"),
-    name: "Cultural Retreat",
-  },
-  {
-    image: require("../../assets/service-cards/Rectangle 23.png"),
-    name: "Culinary Retreat",
-  },
-  {
-    image: require("../../assets/service-cards/Rectangle 24.png"),
-    name: "Modern Beauty Retreat",
-  },
-  {
-    image: require("../../assets/service-cards/Rectangle 21.png"),
-    name: "Ayurveda Retreat",
-  },
-  {
-    image: require("../../assets/service-cards/Rectangle 22.png"),
-    name: "Cultural Retreat",
-  },
-  {
-    image: require("../../assets/service-cards/Rectangle 23.png"),
-    name: "Culinary Retreat",
-  },
-  {
-    image: require("../../assets/service-cards/Rectangle 24.png"),
-    name: "Modern Beauty Retreat",
-  },
-];
 
 function Home() {
   const [activeWelcomeText, setActiveWelcomeText] = useState(1);
@@ -66,13 +21,13 @@ function Home() {
 
   // Function to handle click event for the previous button
   const handlePrevClick = () => {
-    console.log("Previous.")
+    console.log("Previous.");
     setStartIndex((prevIndex) => Math.max(prevIndex - 1, 0));
   };
 
   // Function to handle click event for the next button
   const handleNextClick = () => {
-    console.log("Next.")
+    console.log("Next.");
     setStartIndex((prevIndex) =>
       Math.min(prevIndex + 1, serviceCards.length - 4)
     );
@@ -96,22 +51,22 @@ function Home() {
                   <h1>Welcome to Kerala Wellness Retreats</h1>
                   <p>
                     Discover serenity, healing, and rejuvenation amidst Kerala’s
-                    lush landscapes. 🌿✨ <br /> Our holistic wellness experiences
-                    blend ancient traditions with modern comfort, offering you a
-                    transformative journey for mind, body, and soul. From
-                    Ayurvedic therapies to yoga Kerala awaits to nurture your
-                    well-being.
+                    lush landscapes. 🌿✨ <br /> Our holistic wellness
+                    experiences blend ancient traditions with modern comfort,
+                    offering you a transformative journey for mind, body, and
+                    soul. From Ayurvedic therapies to yoga Kerala awaits to
+                    nurture your well-being.
                   </p>
                 </div>
                 <div className="welcome-text-2">
                   <h1>Welcome to Tourism Wellness Centers</h1>
                   <p>
                     Discover serenity, healing, and rejuvenation amidst Kerala’s
-                    lush landscapes. 🌿✨ <br /> Our holistic wellness experiences
-                    blend ancient traditions with modern comfort, offering you a
-                    transformative journey for mind, body, and soul. From
-                    Ayurvedic therapies to yoga Kerala awaits to nurture your
-                    well-being.
+                    lush landscapes. 🌿✨ <br /> Our holistic wellness
+                    experiences blend ancient traditions with modern comfort,
+                    offering you a transformative journey for mind, body, and
+                    soul. From Ayurvedic therapies to yoga Kerala awaits to
+                    nurture your well-being.
                   </p>
                 </div>
               </div>
@@ -197,7 +152,10 @@ function Home() {
             </div>
           ))}
           <div className="nextButton" onClick={handleNextClick}>
-            <FontAwesomeIcon className="prev-next-buttons" icon={faAngleRight} />
+            <FontAwesomeIcon
+              className="prev-next-buttons"
+              icon={faAngleRight}
+            />
           </div>
         </div>
         <div className="centered-button">
@@ -205,7 +163,102 @@ function Home() {
         </div>
       </div>
 
-      
+      {/* Combo is made for common background image */}
+      <div className="works-mission-sections-combo">
+        {/* HOW IT WORKS SECTION */}
+
+        <div className="how-it-works-section">
+          <h2>HOW IT WORKS</h2>
+          <div className="how-it-works">
+            <div className="upper-text-container">
+              <p>
+                Submit your questionnaire, and our team will guide you through
+                the process, ensuring everything is in order for your
+                convenience.
+              </p>
+              <p>
+                A Pre-Consultation Call to discuss your wellness goals and
+                preferences.
+              </p>
+              <p>
+                Handles services upon your return, ensuring ongoing support for
+                your well-being journey.
+              </p>
+            </div>
+            <div className="work-flow-image">
+              <img src={workflow} alt="Work Flow" />
+            </div>
+            <div className="lower-text-container">
+              <p>
+                Reach out to us to discuss your needs & preferences with our
+                team.
+              </p>
+              <p>
+                We effortlessly handle the visa process for your trip, and we
+                ensures smoother travel arrangements.
+              </p>
+              <p>
+                Upon your arrival in India, our dedicated team will be your
+                hosts, ensuring a seamless and stress-free experience by
+                attending to your needs and preferences throughout your stay.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* MISSION-VISION SECTION */}
+
+        <div className="mission-vision-section">
+          <div className="mission-vision-cards">
+            <div className="mission-card">
+              <div className="down-apostrophes">
+                <img src={downApostrophes} alt="downApostrophes"></img>
+              </div>
+              <div className="mission-vision-text">
+                <p>
+                  Empowering individuals to achieve holistic well-being through
+                  personalized, world-class healthcare and wellness solutions.
+                </p>
+              </div>
+              <div className="up-apostrophes">
+                <img src={upApostrophes} alt="upApostrophes"></img>
+              </div>
+              <div className="mission-vision-heading">
+                <h4>OUR MISSION</h4>
+              </div>
+            </div>
+            <div className="vision-card">
+              <div className="down-apostrophes">
+                <img src={downApostrophes} alt="downApostrophes"></img>
+              </div>
+              <div className="mission-vision-text">
+                <p>
+                  To become Kerala and India’s premier wellness tourism
+                  facilitator. To craft transformative, holistic experiences for
+                  global wellness seekers.
+                </p>
+              </div>
+              <div className="up-apostrophes">
+                <img src={upApostrophes} alt="upApostrophes"></img>
+              </div>
+              <div className="mission-vision-heading">
+                <h4>OUR VISION</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* WHY US SECTION */}
+      <div className="why-us-section">
+        <h2>WHY US</h2>
+        <p>
+        Kerala, a global wellness hub, seamlessly blends authentic Ayurveda with serene landscapes, offering a transformative escape for those seeking holistic well-being.The state seamlessly integrates traditional practices with natural beauty, offering a unique haven for those seeking true wellness.
+        </p>
+      </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

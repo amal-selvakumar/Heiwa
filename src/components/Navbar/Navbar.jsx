@@ -6,6 +6,7 @@ import Buttons from "../Buttons/Buttons";
 import "./Navbar.css";
 
 function Navbar() {
+
   return (
     <nav className="navbar-container">
       <div className="nav-logo">
