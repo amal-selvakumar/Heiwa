@@ -46,3 +46,5 @@ export const serviceCards = [
     name: "Modern Beauty Retreat",
   },
 ];
+
+export const heroImage1 = require('./../assets/landing-images/hero-image-1.png')
