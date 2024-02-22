@@ -1,11 +1,8 @@
-import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import downApostrophes from "../../assets/down-apostrophes.svg";
 import upApostrophes from "../../assets/up-apostrophes.svg";
 import workflow from "../../assets/workflow.svg";
-import Buttons from "../../components/Buttons/Buttons";
-import { images1, images2, serviceCards } from "../../components/Constants";
+import { heroImage1, serviceCards } from "../../components/Constants";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import "./Home.css";
@@ -36,93 +33,45 @@ function Home() {
   return (
     <div>
       <Navbar />
-      {/* WELCOME TEXT CAROUSEL */}
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col">
-            <div className="carousel-welcome-text-container">
-              <div
-                className="welcome-texts"
-                style={{
-                  transform: `translateX(-${(activeWelcomeText - 1) * 50}%)`,
-                }}
-              >
-                <div className="welcome-text-1">
-                  <h1>Welcome to Kerala Wellness Retreats</h1>
-                  <p>
-                    Discover serenity, healing, and rejuvenation amidst Kerala’s
-                    lush landscapes. 🌿✨ <br /> Our holistic wellness
-                    experiences blend ancient traditions with modern comfort,
-                    offering you a transformative journey for mind, body, and
-                    soul. From Ayurvedic therapies to yoga Kerala awaits to
-                    nurture your well-being.
-                  </p>
-                </div>
-                <div className="welcome-text-2">
-                  <h1>Welcome to Tourism Wellness Centers</h1>
-                  <p>
-                    Discover serenity, healing, and rejuvenation amidst Kerala’s
-                    lush landscapes. 🌿✨ <br /> Our holistic wellness
-                    experiences blend ancient traditions with modern comfort,
-                    offering you a transformative journey for mind, body, and
-                    soul. From Ayurvedic therapies to yoga Kerala awaits to
-                    nurture your well-being.
-                  </p>
-                </div>
-              </div>
-              <div className="carousel-dots">
-                <span
-                  className={`dot ${activeWelcomeText === 1 ? "active" : ""}`}
-                  onClick={() => handleDotClick(1)}
-                ></span>
-                <span
-                  className={`dot ${activeWelcomeText === 2 ? "active" : ""}`}
-                  onClick={() => handleDotClick(2)}
-                ></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      {/* IMAGE SLIDERS */}
-      <div className="landing-images-container">
-        <div className="landing-images-1">
-          <div className="landing-images-slider slider1">
-            {images1.map((image, index) => (
-              <img key={index} className="" src={image} alt={`Pic ${index}`} />
-            ))}
-            {images1.map((image, index) => (
-              <img key={index} className="" src={image} alt={`Pic ${index}`} />
-            ))}
-            {images1.map((image, index) => (
-              <img key={index} className="" src={image} alt={`Pic ${index}`} />
-            ))}
-            {images1.map((image, index) => (
-              <img key={index} className="" src={image} alt={`Pic ${index}`} />
-            ))}
-            {images1.map((image, index) => (
-              <img key={index} className="" src={image} alt={`Pic ${index}`} />
-            ))}
+      {/* HERO SECTION */}
+      {/* <div className="hero-section">
+        <div className="hero-left-bg"></div>
+        <div className="image-welcome-text-combo">
+          <div className="hero-image-container">
+            <img src={heroImage1} alt="Hero-Image-1" />
+          </div>
+          <div className="welcome-text">
+            <h3>Welcome to Kerala Wellness Retreats</h3>
+            <p>
+              Discover serenity, healing, and rejuvenation amidst Kerala’s lush
+              landscapes. 🌿✨ Our holistic wellness experiences blend ancient
+              traditions with modern comfort, offering you a transformative
+              journey for mind, body, and soul. From Ayurvedic therapies to yoga
+              Kerala awaits to nurture your well-being.
+            </p>
           </div>
         </div>
-        <div className="landing-images-2">
-          <div className="landing-images-slider slider2">
-            {images2.map((image, index) => (
-              <img key={index} className="" src={image} alt={`Pic ${index}`} />
-            ))}
-            {images2.map((image, index) => (
-              <img key={index} className="" src={image} alt={`Pic ${index}`} />
-            ))}
-            {images2.map((image, index) => (
-              <img key={index} className="" src={image} alt={`Pic ${index}`} />
-            ))}
-            {images2.map((image, index) => (
-              <img key={index} className="" src={image} alt={`Pic ${index}`} />
-            ))}
-            {images2.map((image, index) => (
-              <img key={index} className="" src={image} alt={`Pic ${index}`} />
-            ))}
+      </div> */}
+
+      {/* HERO SECTION 2*/}
+      <div className="hero-section2">
+        <div className="hero-left2"></div>
+        <div className="hero-right2">
+          <div className="image-welcome-text-combo2">
+            <div className="hero-image-container2">
+              <img src={heroImage1} alt="Hero-1" />
+            </div>
+            <div className="welcome-text2">
+              <h3>Welcome to Kerala Wellness Retreats</h3>
+              <p>
+                Discover serenity, healing, and rejuvenation amidst Kerala’s
+                lush landscapes. 🌿✨ Our holistic wellness experiences blend
+                ancient traditions with modern comfort, offering you a
+                transformative journey for mind, body, and soul. From Ayurvedic
+                therapies to yoga Kerala awaits to nurture your well-being.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -141,26 +90,6 @@ function Home() {
 
       <div className="our-services-section">
         <h2>OUR SERVICES</h2>
-        <div className="our-services-cards">
-          <div className="prevButton" onClick={handlePrevClick}>
-            <FontAwesomeIcon className="prev-next-buttons" icon={faAngleLeft} />
-          </div>
-          {serviceCards.slice(startIndex, startIndex + 4).map((card, index) => (
-            <div className="service-card" key={index}>
-              <img src={card.image} alt={card.name} />
-              <h5>{card.name}</h5>
-            </div>
-          ))}
-          <div className="nextButton" onClick={handleNextClick}>
-            <FontAwesomeIcon
-              className="prev-next-buttons"
-              icon={faAngleRight}
-            />
-          </div>
-        </div>
-        <div className="centered-button">
-          <Buttons size="medium" text="VIEW ALL SERVICES" />
-        </div>
       </div>
 
       {/* Combo is made for common background image */}
@@ -253,7 +182,11 @@ function Home() {
       <div className="why-us-section">
         <h2>WHY US</h2>
         <p>
-        Kerala, a global wellness hub, seamlessly blends authentic Ayurveda with serene landscapes, offering a transformative escape for those seeking holistic well-being.The state seamlessly integrates traditional practices with natural beauty, offering a unique haven for those seeking true wellness.
+          Kerala, a global wellness hub, seamlessly blends authentic Ayurveda
+          with serene landscapes, offering a transformative escape for those
+          seeking holistic well-being.The state seamlessly integrates
+          traditional practices with natural beauty, offering a unique haven for
+          those seeking true wellness.
         </p>
       </div>
 
