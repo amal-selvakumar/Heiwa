@@ -7,11 +7,13 @@
   --p2: #EED7C5;
   --p3: #F4EDE7;
   --p4: #CC8874;
+  --p5: #F5F3EF;
 
   /* Sizes */
   --parSize: 1.2vw;
   --headingSize: 3vw;
   --h4Size: 1.7vw;
+  --h3Size: 2.75vw;
 
   /* Fonts */
   --primaryFont: "Josefin Sans", sans-serif;
@@ -37,6 +39,7 @@ body {
 p {
   margin-bottom: 0;
   font-family: var(--secondaryFont);
+  font-size: var(--parSize);
 }
 
 code {
@@ -47,6 +50,10 @@ code {
 a {
   text-decoration: none;
   color: #ffffff;
+}
+
+button {
+  font-family: var(--primaryFont);
 }
 
 /* For WebKit browsers (Chrome, Safari) */
