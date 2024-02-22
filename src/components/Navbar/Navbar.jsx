@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import heiwaLogo from "../../assets/logoHeiwa.svg";
 import "../../index.css";
 import Buttons from "../Buttons/Buttons";
@@ -16,19 +16,19 @@ function Navbar() {
       </div>
       <ul className="navlinks">
         <li>
-          <Link className="colour" to="/">
+          <NavLink className="colour" to="/" activeClassName="active">
             HOME
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link className="colour" to="/about">
+          <NavLink className="colour" to="/about" activeClassName="active">
             ABOUT US
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link className="colour" to="/">
+          <NavLink className="colour" to="/">
             OUR SERVICES
-          </Link>
+          </NavLink>
         </li>
         <li>
           <Link to="/">

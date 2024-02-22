@@ -57,6 +57,10 @@
     width: 100%;
 }
 
+.navlinks li.active {
+    font-weight: 700;
+}
+
 .colour {
     color: var(--p1);
 }
