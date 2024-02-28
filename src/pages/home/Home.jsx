@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import downApostrophes from "../../assets/down-apostrophes.svg";
 import upApostrophes from "../../assets/up-apostrophes.svg";
 import workflow from "../../assets/workflow.svg";
-import { heroImage1, serviceCards } from "../../components/Constants";
+import { serviceCards } from "../../components/Constants";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import Services from "../../components/Services/Services";
@@ -56,47 +56,45 @@ function Home() {
       </div> */}
 
       {/* HERO SECTION 2*/}
-      <div className="hero-section2">
-        <div className="hero-left2"></div>
-        <div className="hero-right2">
-          <div className="image-welcome-text-combo2">
-            <div className="welcome-text-slider">
-              <div className="welcome-text-slide">
-                {" "}
-                {/* This div will slide */}
-                <h3>Welcome to Kerala Wellness Retreats</h3>
-                <p>
-                  Discover serenity, healing, and rejuvenation amidst Kerala’s
-                  lush landscapes...
-                </p>
+      {/* <div className="container-fluid hero-section2">
+        <div className="row">
+          <div className="col-8 hero-left2">
+            <div className="image-welcome-text-combo2">
+              <div className="welcome-text-slider">
+                <div className="welcome-text-slide">
+                  <h3>Welcome to Kerala Wellness Retreats</h3>
+                  <p>
+                    Discover serenity, healing, and rejuvenation amidst Kerala’s
+                    lush landscapes...
+                  </p>
+                </div>
+                <div className="welcome-text-slide">
+                  <h3>Welcome to Tourism Wellness Centers</h3>
+                  <p>
+                    Discover serenity, healing, and rejuvenation amidst Kerala’s
+                    lush landscapes...
+                  </p>
+                </div>
               </div>
-              <div className="welcome-text-slide">
-                {" "}
-                {/* Add additional slides if needed */}
-                <h3>Welcome to Tourism Wellness Centers</h3>
-                <p>
-                  Discover serenity, healing, and rejuvenation amidst Kerala’s
-                  lush landscapes...
-                </p>
+              <div className="carousel-dots">
+                <span
+                  className={`dot ${activeWelcomeText === 0 ? "active" : ""}`}
+                  onClick={() => handleDotClick(0)}
+                ></span>
+                <span
+                  className={`dot ${activeWelcomeText === 1 ? "active" : ""}`}
+                  onClick={() => handleDotClick(1)}
+                ></span>
               </div>
-            </div>
-            <div className="carousel-dots">
-              <span
-                className={`dot ${activeWelcomeText === 0 ? "active" : ""}`}
-                onClick={() => handleDotClick(0)}
-              ></span>
-              <span
-                className={`dot ${activeWelcomeText === 1 ? "active" : ""}`}
-                onClick={() => handleDotClick(1)}
-              ></span>
-              {/* Add more dots if there are additional slides */}
             </div>
           </div>
-          <div className="hero-image-container2">
-            <img src={heroImage1} alt="Hero-1" />
+          <div className="col-4 hero-right2">
+            <div className="hero-image-container2">
+              <img src={heroImage1} alt="Hero-1" />
+            </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* OUR SERVICES SECTION */}
 

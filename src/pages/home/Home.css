@@ -40,83 +40,65 @@
     text-align: left;
 }
 
-/* Hero section 2 */
+/* HERO SECTION 2 */
 .hero-section2 {
     background-color: var(--p3);
-    display: flex;
-    /* align-items: center;
-    justify-content: center; */
-    height: calc(90vh - 4px);
     width: 100%;
+    overflow: hidden;
+    /* Ensure overflow is hidden */
 }
 
 .hero-left2 {
-    background-color: var(--p2);
-    flex: 0 0 30%;
+    background-color: var(--color1);
+    /* Adjust as needed */
+    height: 100%;
+    /* Take full height */
+    position: relative;
+    /* Set position relative for absolute children */
 }
 
 .hero-right2 {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-color: var(--color2);
+    /* Adjust as needed */
 }
 
 .image-welcome-text-combo2 {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
-}
-
-.hero-image-container2 {}
-
-.hero-image-container2 img {
-    margin-left: -50%;
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-}
-
-.welcome-text-slide {
-    padding: 0 5vw;
-}
-
-.welcome-text-slide h3 {
-    font-size: var(--h3Size);
-    font-weight: 400;
-    text-align: center;
-}
-
-.welcome-text-slide p {
-    padding-top: 2%;
-    line-height: 1.75;
-    text-align: left;
-}
-
-.welcome-text-slide h3,
-.welcome-text-slide p {
-    margin-left: -25%;
+    height: 100%;
+    overflow: hidden;
+    /* Ensure overflow is hidden */
 }
 
 .welcome-text-slider {
-    width: 200%;
-    /* Ensure slider container takes full width */
+    width: 200vw;
+    /* Twice the width to contain both slides */
     display: flex;
+    transition: transform 0.5s ease;
+    /* Smooth sliding transition */
 }
 
 .welcome-text-slide {
-    width: 100%;
-    /* Each slide takes full width */
-    transition: transform 0.5s ease;
-    /* Smooth sliding transition */
+    width: 50%;
+    /* Each slide takes half of the container width */
+}
+
+.hero-image-container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image-container2 img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .carousel-dots {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    /* Adjust as needed */
 }
 
 .dot {
@@ -131,6 +113,7 @@
 .dot.active {
     background-color: #333;
 }
+
 
 
 /* Tourism & Wellness Center */
