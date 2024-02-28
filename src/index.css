@@ -49,8 +49,15 @@ code {
 
 a {
   text-decoration: none;
-  color: #ffffff;
 }
+
+.black {
+  color: black;
+} 
+
+.white {
+  color: white;
+} 
 
 button {
   font-family: var(--primaryFont);
