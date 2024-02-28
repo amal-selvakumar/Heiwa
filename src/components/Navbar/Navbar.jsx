@@ -16,12 +16,12 @@ function Navbar() {
       </div>
       <ul className="navlinks">
         <li>
-          <NavLink className="colour" to="/" activeClassName="active">
+          <NavLink className="colour" to="/">
             HOME
           </NavLink>
         </li>
         <li>
-          <NavLink className="colour" to="/about" activeClassName="active">
+          <NavLink className="colour" to="/about">
             ABOUT US
           </NavLink>
         </li>

@@ -5,6 +5,7 @@ import workflow from "../../assets/workflow.svg";
 import { heroImage1, serviceCards } from "../../components/Constants";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
+import Services from "../../components/Services/Services";
 import "./Home.css";
 
 function Home() {
@@ -59,19 +60,40 @@ function Home() {
         <div className="hero-left2"></div>
         <div className="hero-right2">
           <div className="image-welcome-text-combo2">
-            <div className="hero-image-container2">
-              <img src={heroImage1} alt="Hero-1" />
+            <div className="welcome-text-slider">
+              <div className="welcome-text-slide">
+                {" "}
+                {/* This div will slide */}
+                <h3>Welcome to Kerala Wellness Retreats</h3>
+                <p>
+                  Discover serenity, healing, and rejuvenation amidst Kerala’s
+                  lush landscapes...
+                </p>
+              </div>
+              <div className="welcome-text-slide">
+                {" "}
+                {/* Add additional slides if needed */}
+                <h3>Welcome to Tourism Wellness Centers</h3>
+                <p>
+                  Discover serenity, healing, and rejuvenation amidst Kerala’s
+                  lush landscapes...
+                </p>
+              </div>
             </div>
-            <div className="welcome-text2">
-              <h3>Welcome to Kerala Wellness Retreats</h3>
-              <p>
-                Discover serenity, healing, and rejuvenation amidst Kerala’s
-                lush landscapes. 🌿✨ Our holistic wellness experiences blend
-                ancient traditions with modern comfort, offering you a
-                transformative journey for mind, body, and soul. From Ayurvedic
-                therapies to yoga Kerala awaits to nurture your well-being.
-              </p>
+            <div className="carousel-dots">
+              <span
+                className={`dot ${activeWelcomeText === 0 ? "active" : ""}`}
+                onClick={() => handleDotClick(0)}
+              ></span>
+              <span
+                className={`dot ${activeWelcomeText === 1 ? "active" : ""}`}
+                onClick={() => handleDotClick(1)}
+              ></span>
+              {/* Add more dots if there are additional slides */}
             </div>
+          </div>
+          <div className="hero-image-container2">
+            <img src={heroImage1} alt="Hero-1" />
           </div>
         </div>
       </div>
@@ -90,6 +112,7 @@ function Home() {
 
       <div className="our-services-section">
         <h2>OUR SERVICES</h2>
+        <Services />
       </div>
 
       {/* Combo is made for common background image */}

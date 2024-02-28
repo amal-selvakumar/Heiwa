@@ -1,0 +1,7 @@
+.footer-1 {
+    height: 60vh;
+    padding: 4vw 8vw;
+    background-color: var(--p4);
+    display: flex;
+    flex-direction: column;
+}

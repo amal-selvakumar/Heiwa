@@ -58,6 +58,7 @@
 .hero-right2 {
     flex: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -77,26 +78,60 @@
     object-fit: contain;
 }
 
-.welcome-text2 {
+.welcome-text-slide {
     padding: 0 5vw;
 }
 
-.welcome-text2 h3 {
+.welcome-text-slide h3 {
     font-size: var(--h3Size);
     font-weight: 400;
     text-align: center;
 }
 
-.welcome-text2 p {
+.welcome-text-slide p {
     padding-top: 2%;
     line-height: 1.75;
     text-align: left;
 }
 
-.welcome-text2 h3,
-.welcome-text2 p {
+.welcome-text-slide h3,
+.welcome-text-slide p {
     margin-left: -25%;
 }
+
+.welcome-text-slider {
+    width: 200%;
+    /* Ensure slider container takes full width */
+    display: flex;
+}
+
+.welcome-text-slide {
+    width: 100%;
+    /* Each slide takes full width */
+    transition: transform 0.5s ease;
+    /* Smooth sliding transition */
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* Adjust as needed */
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #333;
+}
+
 
 /* Tourism & Wellness Center */
 
