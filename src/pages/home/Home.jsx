@@ -1,100 +1,99 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import downApostrophes from "../../assets/down-apostrophes.svg";
 import upApostrophes from "../../assets/up-apostrophes.svg";
 import workflow from "../../assets/workflow.svg";
-import { serviceCards } from "../../components/Constants";
+import { heroImage1, whyUsCards } from "../../components/Constants";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import Services from "../../components/Services/Services";
 import "./Home.css";
 
 function Home() {
+  //  To make the image right in the center of the two divs
+  const imgRef = useRef(null);
+
+  useEffect(() => {
+    const imgElement = imgRef.current;
+    console.log("imgElement: ", imgElement);
+    if (imgElement) {
+      const imgWidth = imgElement.clientWidth;
+      const divElement = imgElement.parentElement;
+      const marginRightValue = imgWidth / 2;
+      divElement.style.marginRight = `-${marginRightValue}px`;
+      console.log(imgWidth, divElement, marginRightValue);
+    }
+  }, []);
+
   const [activeWelcomeText, setActiveWelcomeText] = useState(1);
 
   const handleDotClick = (index) => {
     setActiveWelcomeText(index);
   };
 
-  const [startIndex, setStartIndex] = useState(0); // Index of the first visible card
-
-  // Function to handle click event for the previous button
-  const handlePrevClick = () => {
-    console.log("Previous.");
-    setStartIndex((prevIndex) => Math.max(prevIndex - 1, 0));
-  };
-
-  // Function to handle click event for the next button
-  const handleNextClick = () => {
-    console.log("Next.");
-    setStartIndex((prevIndex) =>
-      Math.min(prevIndex + 1, serviceCards.length - 4)
-    );
-  };
+  console.log(activeWelcomeText);
 
   return (
     <div>
       <Navbar />
 
       {/* HERO SECTION */}
-      {/* <div className="hero-section">
-        <div className="hero-left-bg"></div>
-        <div className="image-welcome-text-combo">
-          <div className="hero-image-container">
-            <img src={heroImage1} alt="Hero-Image-1" />
-          </div>
-          <div className="welcome-text">
-            <h3>Welcome to Kerala Wellness Retreats</h3>
-            <p>
-              Discover serenity, healing, and rejuvenation amidst Kerala’s lush
-              landscapes. 🌿✨ Our holistic wellness experiences blend ancient
-              traditions with modern comfort, offering you a transformative
-              journey for mind, body, and soul. From Ayurvedic therapies to yoga
-              Kerala awaits to nurture your well-being.
-            </p>
-          </div>
-        </div>
-      </div> */}
-
-      {/* HERO SECTION 2*/}
-      {/* <div className="container-fluid hero-section2">
-        <div className="row">
-          <div className="col-8 hero-left2">
-            <div className="image-welcome-text-combo2">
-              <div className="welcome-text-slider">
-                <div className="welcome-text-slide">
+      <section className="hero-section">
+        <div className="hero-left">
+          <div className="welcome-text-image-combo">
+            <div className="welcome-texts-dots-combo">
+              <div className="welcome-texts-container">
+                <div
+                  className={`welcome-text ${
+                    activeWelcomeText === 1 ? "active" : ""
+                  }`}
+                  id="welcome-text-1"
+                >
                   <h3>Welcome to Kerala Wellness Retreats</h3>
                   <p>
                     Discover serenity, healing, and rejuvenation amidst Kerala’s
-                    lush landscapes...
+                    lush landscapes. 🌿✨ Our holistic wellness experiences
+                    blend ancient traditions with modern comfort, offering you a
+                    transformative journey for mind, body, and soul. From
+                    Ayurvedic therapies to yoga Kerala awaits to nurture your
+                    well-being.
                   </p>
                 </div>
-                <div className="welcome-text-slide">
-                  <h3>Welcome to Tourism Wellness Centers</h3>
+                <div
+                  className={`welcome-text ${
+                    activeWelcomeText === 2 ? "active" : ""
+                  }`}
+                  id="welcome-text-2"
+                >
+                  <h3>Welcome to Tourism and Wellness</h3>
                   <p>
                     Discover serenity, healing, and rejuvenation amidst Kerala’s
-                    lush landscapes...
+                    lush landscapes. 🌿✨ Our holistic wellness experiences
+                    blend ancient traditions with modern comfort, offering you a
+                    transformative journey for mind, body, and soul. From
+                    Ayurvedic therapies to yoga Kerala awaits to nurture your
+                    well-being.
                   </p>
                 </div>
               </div>
               <div className="carousel-dots">
                 <span
-                  className={`dot ${activeWelcomeText === 0 ? "active" : ""}`}
-                  onClick={() => handleDotClick(0)}
-                ></span>
-                <span
                   className={`dot ${activeWelcomeText === 1 ? "active" : ""}`}
                   onClick={() => handleDotClick(1)}
                 ></span>
+                <span
+                  className={`dot ${activeWelcomeText === 2 ? "active" : ""}`}
+                  onClick={() => handleDotClick(2)}
+                ></span>
               </div>
             </div>
-          </div>
-          <div className="col-4 hero-right2">
-            <div className="hero-image-container2">
-              <img src={heroImage1} alt="Hero-1" />
+
+            <div className="hero-image">
+              <img src={heroImage1} ref={imgRef} alt="Welcome" />
             </div>
           </div>
         </div>
-      </div> */}
+        <div className="hero-right"></div>
+      </section>
 
       {/* OUR SERVICES SECTION */}
 
@@ -108,16 +107,16 @@ function Home() {
         </p>
       </div>
 
-      <div className="our-services-section">
+      <section className="our-services-section">
         <h2>OUR SERVICES</h2>
         <Services />
-      </div>
+      </section>
 
       {/* Combo is made for common background image */}
       <div className="works-mission-sections-combo">
         {/* HOW IT WORKS SECTION */}
 
-        <div className="how-it-works-section">
+        <section className="how-it-works-section">
           <h2>HOW IT WORKS</h2>
           <div className="how-it-works">
             <div className="upper-text-container">
@@ -154,11 +153,11 @@ function Home() {
               </p>
             </div>
           </div>
-        </div>
+        </section>
 
         {/* MISSION-VISION SECTION */}
 
-        <div className="mission-vision-section">
+        <section className="mission-vision-section">
           <div className="mission-vision-cards">
             <div className="mission-card">
               <div className="down-apostrophes">
@@ -196,11 +195,11 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
 
       {/* WHY US SECTION */}
-      <div className="why-us-section">
+      <section className="why-us-section">
         <h2>WHY US</h2>
         <p>
           Kerala, a global wellness hub, seamlessly blends authentic Ayurveda
@@ -209,7 +208,18 @@ function Home() {
           traditional practices with natural beauty, offering a unique haven for
           those seeking true wellness.
         </p>
-      </div>
+        <div className="why-us-cards">
+          {whyUsCards.map((whyUsCard, index) => (
+            <div className="why-us-card">
+              <img
+                src={whyUsCard.image}
+                alt={`${whyUsCard.title} service card`}
+              ></img>
+              <p className="black">{whyUsCard.title}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* Footer */}
       <Footer />
