@@ -1,50 +1,42 @@
-export const images1 = [
-  require("../assets/landing-images/1-houseboat-2031055_1920.jpg"),
-  require("../assets/landing-images/2-mountain-7073990_1920.jpg"),
-  require("../assets/landing-images/3-Rectangle 38.png"),
-  require("../assets/landing-images/4-stones--2040340_1920.jpg"),
-];
-
-export const images2 = [
-  require("../assets/landing-images/4-stones--2040340_1920.jpg"),
-  require("../assets/landing-images/3-Rectangle 38.png"),
-  require("../assets/landing-images/2-mountain-7073990_1920.jpg"),
-  require("../assets/landing-images/1-houseboat-2031055_1920.jpg"),
-];
-
-export const serviceCards = [
+export const services = [
   {
-    image: require("../assets/service-cards/Rectangle 21.png"),
-    name: "Ayurveda Retreat",
+    image: "./../assets/service-cards/wellnessPackages.png",
+    title: "WELLNESS PACKAGES",
+    path: "/about",
   },
   {
-    image: require("../assets/service-cards/Rectangle 22.png"),
-    name: "Cultural Retreat",
+    image: "./../assets/service-cards/retreatLiving.png",
+    title: "RETREAT LIVING",
+    path: "/about",
   },
   {
-    image: require("../assets/service-cards/Rectangle 23.png"),
-    name: "Culinary Retreat",
-  },
-  {
-    image: require("../assets/service-cards/Rectangle 24.png"),
-    name: "Modern Beauty Retreat",
-  },
-  {
-    image: require("../assets/service-cards/Rectangle 21.png"),
-    name: "Ayurveda Retreat",
-  },
-  {
-    image: require("../assets/service-cards/Rectangle 22.png"),
-    name: "Cultural Retreat",
-  },
-  {
-    image: require("../assets/service-cards/Rectangle 23.png"),
-    name: "Culinary Retreat",
-  },
-  {
-    image: require("../assets/service-cards/Rectangle 24.png"),
-    name: "Modern Beauty Retreat",
+    image: "../../assets/service-cards/consultationPackages.png",
+    title: "CONSULTATION PACKAGES",
+    path: "/about",
   },
 ];
 
-export const heroImage1 = require('./../assets/landing-images/hero-image-1.png')
+export const whyUsCards = [
+  {
+    image: "./../assets/whyUs/ayurvedaTradition.svg",
+    title: "Ayurveda Tradition",
+  },
+  {
+    image: "./../assets/whyUs/yogaHub.svg",
+    title: "Yoga Hub",
+  },
+  {
+    image: "./../assets/whyUs/meditativeRetreats.svg",
+    title: "Meditative Retreats",
+  },
+  {
+    image: "./../assets/whyUs/naturalBeauty.svg",
+    title: "Natural Beauty",
+  },
+  {
+    image: "./../assets/whyUs/holisticHealing.svg",
+    title: "Holistic Healing",
+  },
+];
+
+export const heroImage1 = require("./../assets/landing-images/hero-image-1.png");
