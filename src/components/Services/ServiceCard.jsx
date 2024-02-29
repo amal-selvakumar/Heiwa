@@ -1,10 +1,14 @@
 import React from "react";
+import "./Services.css";
 
 const ServiceCard = ({ image, title }) => {
   return (
     <div className="service-card">
-      <img src={image} alt={`${title} service card`}></img>
-      <h5>{title}</h5>
+      <span className="service-card-arch"></span>
+      <div className="service-card-image">
+        <img src={image} alt={`${title} service card`}></img>
+      </div>
+      <h5 className="black">{title}</h5>
     </div>
   );
 };

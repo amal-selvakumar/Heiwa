@@ -1,0 +1,38 @@
+.services-container {
+    display: flex;
+    justify-content: space-between;
+
+    border: 5px solid slateblue
+}
+
+.service-card {
+    position: relative;
+    z-index: 1;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--p6);
+    border: 2px solid salmon;
+}
+
+.service-card-arch {
+    z-index: 2;
+    border-radius: 50vw 50vw 0 0;
+    width: 50%;
+    height: 50%;
+    background-color: var(--p4);
+}
+
+.service-card-image {
+    z-index: 3;
+}
+
+.service-card img {
+
+}
+
+.service-card h5 {
+    z-index: 3;
+    font-size: var(--h4Size);
+}
