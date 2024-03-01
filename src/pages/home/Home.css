@@ -4,21 +4,20 @@
     display: flex;
     background-color: var(--p5);
     /* overflow: hidden; */
-
-    border: 1px solid #021763;
+    /* border: 1px solid #021763; */
 }
 
 .hero-left {
     display: flex;
-
-    border: 1px solid #02a6d3;
+    width: 100%;
+    /* border: 1px solid #02a6d3; */
 }
 
 .hero-right {
     background-color: var(--p2);
     flex: 0 0 30%;
 
-    border: 2px solid #9a56d3;
+    /* border: 2px solid #9a56d3; */
 }
 
 .welcome-text-image-combo {
@@ -26,31 +25,51 @@
     align-items: center;
     z-index: 2;
 
-    border: 2px solid #707a5a;
+    /* border: 2px solid #707a5a; */
 }
 
 .welcome-texts-dots-combo {
     display: flex;
     flex-direction: column;
 
-    border: 2px solid #707a5a;
+    /* border: 2px solid yellow; */
 }
 
 .welcome-texts-container {
-    display: flex;
     overflow: hidden;
+    display: flex;
     width: 100%;
+    transition: transform 0.5s ease;
 
-    border: 2px solid #707a5a;
+    /* border: 2px solid #707a5a; */
 }
 
 .welcome-text {
     flex: 0 0 100%;
+    padding: 0 4vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     transition: transform 0.5s ease;
-    border: 2px solid #707a5a;
+
+    /* border: 2px solid #277daa; */
 }
 
-.welcome-text.active {
+.welcome-text.active-left {
+    transform: translateX(0%);
+}
+
+.welcome-text.inactive-left {
+    transform: translateX(-100%);
+}
+
+.welcome-text.active-right {
+    transform: translateX(-100%);
+}
+
+.welcome-text.inactive-right {
     transform: translateX(0%);
 }
 
@@ -58,12 +77,18 @@
 .welcome-text h3 {
     font-size: var(--h3Size);
     font-weight: 500;
+    text-align: center;
+}
+
+.welcome-text p {
+    padding-top: 1vw;
+    letter-spacing: 0.1vw;
 }
 
 .carousel-dots {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    padding-top: 2vw;
 }
 
 .dot {
@@ -81,7 +106,12 @@
 
 .hero-image {
     scale: 1.3;
+    /* display: none; */
+    border: 3px solid transparent;
+    border-image: linear-gradient(to left, red 50%, blue 50%) 1;
 }
+
+
 
 .hero-image img {
     max-width: 100%;
@@ -334,7 +364,7 @@
     justify-content: center;
     width: 100%;
 
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 .why-us-card {
@@ -343,7 +373,7 @@
     flex-direction: column;
     align-items: center;
 
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
 }
 
 .why-us-card img {

@@ -18,7 +18,7 @@ function Home() {
     if (imgElement) {
       const imgWidth = imgElement.clientWidth;
       const divElement = imgElement.parentElement;
-      const marginRightValue = imgWidth / 2;
+      const marginRightValue = 1.3 * imgWidth / 2;
       divElement.style.marginRight = `-${marginRightValue}px`;
       console.log(imgWidth, divElement, marginRightValue);
     }
@@ -44,7 +44,7 @@ function Home() {
               <div className="welcome-texts-container">
                 <div
                   className={`welcome-text ${
-                    activeWelcomeText === 1 ? "active" : ""
+                    activeWelcomeText === 1 ? "active-left" : "inactive-left"
                   }`}
                   id="welcome-text-1"
                 >
@@ -60,7 +60,7 @@ function Home() {
                 </div>
                 <div
                   className={`welcome-text ${
-                    activeWelcomeText === 2 ? "active" : ""
+                    activeWelcomeText === 2 ? "active-right" : "inactive-right"
                   }`}
                   id="welcome-text-2"
                 >
@@ -96,8 +96,7 @@ function Home() {
       </section>
 
       {/* OUR SERVICES SECTION */}
-
-      <div className="text-section">
+      <section className="text-section">
         <h2>TOURISM AND WELLNESS CENTER</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
@@ -105,7 +104,7 @@ function Home() {
           minima illum ipsum, expedita est alias. Veniam sequi quibusdam,
           consequatur enim in iusto!
         </p>
-      </div>
+      </section>
 
       <section className="our-services-section">
         <h2>OUR SERVICES</h2>
