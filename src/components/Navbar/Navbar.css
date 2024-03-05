@@ -42,7 +42,8 @@
     color: black;
 }
 
-.navlinks li::before {
+/* Every link except the last one(button) */
+.navlinks li:not(:last-child)::before {
     content: '';
     position: absolute;
     bottom: -5px;
