@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import downApostrophes from "../../assets/down-apostrophes.svg";
 import upApostrophes from "../../assets/up-apostrophes.svg";
+import whatsappPopup from "../../assets/whatsapp-popup.png";
 import workflow from "../../assets/workflow.svg";
 import { heroImage1, whyUsCards } from "../../components/Constants";
 import Footer from "../../components/Footer/Footer";
@@ -18,7 +19,7 @@ function Home() {
     if (imgElement) {
       const imgWidth = imgElement.clientWidth;
       const divElement = imgElement.parentElement;
-      const marginRightValue = 1.3 * imgWidth / 2;
+      const marginRightValue = (1.3 * imgWidth) / 2;
       divElement.style.marginRight = `-${marginRightValue}px`;
       console.log(imgWidth, divElement, marginRightValue);
     }
@@ -35,6 +36,14 @@ function Home() {
   return (
     <div>
       <Navbar />
+
+      <a href="/about">
+        <div className="whatsapp-popup-container">
+          <div className="whatsapp-popup-image">
+            <img src={whatsappPopup} alt="whatsapp-popup"></img>
+          </div>
+        </div>
+      </a>
 
       {/* HERO SECTION */}
       <section className="hero-section">
