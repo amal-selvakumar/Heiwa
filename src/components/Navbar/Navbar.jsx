@@ -31,8 +31,8 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
-          <Link to="/">
-            <Buttons size="medium" text="BOOK NOW" />
+          <Link to="/contact">
+            <Buttons size="medium" text="CONTACT US" />
           </Link>
         </li>
       </ul>
