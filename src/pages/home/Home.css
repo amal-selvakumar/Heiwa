@@ -1,20 +1,3 @@
-/* WHATSAPP POPUP */
-.whatsapp-popup-container {
-    background-color: rgba(178, 159, 146, 0.33);
-    position: fixed;
-    bottom: 5%;
-    right: 0;
-    padding: 0.5vw;
-    border-radius: 50vw 0 0 50vw;
-}
-
-.whatsapp-popup-image {}
-
-.whatsapp-popup-image img {
-    max-width: 100%;
-    height: auto;
-}
-
 /* HERO SECTION */
 .hero-section {
     height: 90vh;

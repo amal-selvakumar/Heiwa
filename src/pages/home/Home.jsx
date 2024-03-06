@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import downApostrophes from "../../assets/down-apostrophes.svg";
 import upApostrophes from "../../assets/up-apostrophes.svg";
-import whatsappPopup from "../../assets/whatsapp-popup.png";
 import workflow from "../../assets/workflow.svg";
 import { heroImage1, whyUsCards } from "../../components/Constants";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import Services from "../../components/Services/Services";
+import WhatsappPopup from "../../components/WhatsappPopup/WhatsappPopup";
 import "./Home.css";
 
 function Home() {
@@ -37,13 +37,7 @@ function Home() {
     <div>
       <Navbar />
 
-      <a href="/about">
-        <div className="whatsapp-popup-container">
-          <div className="whatsapp-popup-image">
-            <img src={whatsappPopup} alt="whatsapp-popup"></img>
-          </div>
-        </div>
-      </a>
+      <WhatsappPopup />
 
       {/* HERO SECTION */}
       <section className="hero-section">
