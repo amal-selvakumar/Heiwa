@@ -206,7 +206,7 @@ function Home() {
         <p>
           Kerala, a global wellness hub, seamlessly blends authentic Ayurveda
           with serene landscapes, offering a transformative escape for those
-          seeking holistic well-being.The state seamlessly integrates
+          seeking holistic well-being. The state seamlessly integrates
           traditional practices with natural beauty, offering a unique haven for
           those seeking true wellness.
         </p>

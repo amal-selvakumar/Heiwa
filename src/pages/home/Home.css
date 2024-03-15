@@ -358,7 +358,7 @@
 
 .why-us-section p {
     font-size: var(--parSize);
-    padding: 1vw 0;
+    padding: 1vw 8vw;
     line-height: 1.8;
 }
 
@@ -385,5 +385,6 @@
 }
 
 .why-us-card p {
+    padding: 0;
     font-size: 1vw;
 }
