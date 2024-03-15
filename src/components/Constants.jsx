@@ -40,3 +40,23 @@ export const whyUsCards = [
 ];
 
 export const heroImage1 = require("./../assets/landing-images/hero-image-1.png");
+
+export const contactDetails = [
+  {
+    title: "Location",
+    svgIcon: "./../assets/contact/location.svg",
+    detail: "D-34, Vilas Nagar, Sadar Bazaar, Jahagirpur, Delhi, 438002",
+  },
+
+  {
+    title: "Phone",
+    svgIcon: "./../assets/contact/phone.svg",
+    detail: "+351 258 548",
+  },
+
+  {
+    title: "Mail",
+    svgIcon: "./../assets/contact/mail.svg",
+    detail: "heiwa.wellness@gmail.com",
+  },
+];
