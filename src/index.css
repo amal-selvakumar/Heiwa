@@ -11,6 +11,8 @@
   --p6: #F6ECE2;
   --p7: #B29F92;
 
+  --greenColor: #00463C;  
+
   /* Sizes */
   --parSize: 1.2vw;
   --headingSize: 3vw;
@@ -63,6 +65,15 @@ a {
 
 button {
   font-family: var(--primaryFont);
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  appearance: none; 
+  outline: none;
+  box-shadow: none;
+  border: none;
 }
 
 /* For WebKit browsers (Chrome, Safari) */
