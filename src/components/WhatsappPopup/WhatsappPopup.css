@@ -4,8 +4,15 @@
     position: fixed;
     bottom: 5%;
     right: 0;
-    padding: 0.5vw;
+    padding: 0.3vw 0.3vw 0.3vw 0.8vw;
     border-radius: 50vw 0 0 50vw;
+    z-index: 5;
+}
+
+.whatsapp-popup-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .whatsapp-popup-image {}
