@@ -240,6 +240,10 @@
     height: auto;
 }
 
+.phone-or-email-select.selected {
+    border: 2px solid var(--greenColor);
+}
+
 .select-text {
     font-size: var(--parSize);
     font-family: var(--secondaryFont);
@@ -247,15 +251,34 @@
     padding-top: 1vw;
 }
 
-#phone-select {
-    border: 2px solid var(--greenColor);
-}
-
 /* SELECTED CONTACT FORM SECTION */
 
 .selected-contact-form-section {
     background-color: var(--p2);
     padding: 0 10vw 3vw 10vw;
+    position: relative;
+    
+    transition: display 0.3s ease-in-out;
+    display: none;
+}
+
+.selected-contact-form-section.show::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/our-services-background-svg.svg');
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.selected-contact-form-section.show {
+    display: block;
+    position: relative;
 }
 
 .selected-contact-form {
@@ -270,12 +293,12 @@
     flex-direction: column;
 }
 
-.label-input-combo > label {
+.label-input-combo>label {
     margin-bottom: .7em;
     font-family: var(--secondaryFont);
 }
 
-.label-input-combo > input {
+.label-input-combo>input {
     padding: 1vw 2vw;
 
     font-size: 1.1vw;
@@ -284,6 +307,9 @@
 }
 
 .selected-contact-form-submit-button {
+    font-family: var(--secondaryFont);
+    font-weight: 500;
     background-color: white;
-    padding: 0.55vw 1vw 0.4vw 1vw;
+    padding: 1.1vw 2.5vw 0.8vw 2.5vw;
+    cursor: pointer;
 }

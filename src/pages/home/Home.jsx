@@ -19,7 +19,7 @@ function Home() {
     if (imgElement) {
       const imgWidth = imgElement.clientWidth;
       const divElement = imgElement.parentElement;
-      const marginRightValue = (1.3 * imgWidth) / 2;
+      const marginRightValue = (1.05 * imgWidth) / 2;
       divElement.style.marginRight = `-${marginRightValue}px`;
       console.log(imgWidth, divElement, marginRightValue);
     }

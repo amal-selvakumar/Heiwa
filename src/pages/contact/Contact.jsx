@@ -77,6 +77,12 @@ function AnimatedTextArea({ label }) {
 }
 
 function Contact() {
+  const [selectedForm, setSelectedForm] = useState(null);
+
+  const handleSelectForm = (formId) => {
+    setSelectedForm(formId);
+  };
+
   return (
     <div>
       <Navbar />
@@ -186,14 +192,28 @@ function Contact() {
         <p>How should we contact you?</p>
 
         <div className="phone-or-email-container">
-          <div className="phone-or-email-select" id="phone-select">
+          <div
+            className={`phone-or-email-select ${
+              selectedForm === "phone" ? "selected" : ""
+            }`}
+            id="phone-select"
+            onClick={() => handleSelectForm("phone")}
+          >
+            {" "}
             <img
               src="../../assets/contact/phone-select.svg"
               alt="Phone Select"
             />
             <span className="select-text">Phone</span>
           </div>
-          <div className="phone-or-email-select" id="email-select">
+          <div
+            className={`phone-or-email-select ${
+              selectedForm === "email" ? "selected" : ""
+            }`}
+            id="email-select"
+            onClick={() => handleSelectForm("email")}
+          >
+            {" "}
             <img
               src="../../assets/contact/email-select.svg"
               alt="Email Select"
@@ -202,7 +222,13 @@ function Contact() {
           </div>
         </div>
       </section>
-      <section className="selected-contact-form-section">
+
+      <section
+        className={`selected-contact-form-section ${
+          selectedForm === "phone" ? "show" : ""
+        }`}
+        id="selected-phone-form"
+      >
         <form className="selected-contact-form">
           <div className="label-input-combo">
             <label htmlFor="name">YOUR FULL NAME</label>
@@ -234,10 +260,57 @@ function Contact() {
             <input type="datetime-local" name="name" required />
             <br />
           </div>
-          <div className="submit-button-wrapper">
-            <button className="selected-contact-form-submit-button" type="s">SUBMIT</button>
-          </div>
         </form>
+        <div className="submit-button-wrapper">
+          <button className="selected-contact-form-submit-button" type="submit">
+            SUBMIT
+          </button>
+        </div>
+      </section>
+
+      <section
+        className={`selected-contact-form-section ${
+          selectedForm === "email" ? "show" : ""
+        }`}
+        id="selected-email-form"
+      >
+        <form className="selected-contact-form">
+          <div className="label-input-combo">
+            <label htmlFor="name">YOUR FULL NAME</label>
+            <input type="text" name="name" required />
+            <br />
+          </div>
+          <div className="label-input-combo">
+            <label htmlFor="name">EMAIL</label>
+            <input type="email" name="email" required />
+            <br />
+          </div>
+          <div className="label-input-combo">
+            <label htmlFor="name">CITY</label>
+            <input type="text" name="name" required />
+            <br />
+          </div>
+          <div className="label-input-combo">
+            <label htmlFor="name">COUNTRY</label>
+            <input type="text" name="name" required />
+            <br />
+          </div>
+          {/* <div className="label-input-combo">
+            <label htmlFor="name">YOUR TIME ZONE</label>
+            <input type="time" name="name" required />
+            <br />
+          </div>
+          <div className="label-input-combo">
+            <label htmlFor="name">PREFERRED DATE AND TIME</label>
+            <input type="datetime-local" name="name" required />
+            <br />
+          </div> */}
+        </form>
+        <div className="submit-button-wrapper">
+          <button className="selected-contact-form-submit-button" type="submit">
+            SUBMIT
+          </button>
+        </div>
       </section>
 
       <Footer />

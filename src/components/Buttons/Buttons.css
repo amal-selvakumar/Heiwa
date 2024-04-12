@@ -3,6 +3,8 @@ button {
     border: none;
     box-shadow: none;
     outline: none;
+
+    transition: background-color 0.3s  ease, color 0.3s ease;
 }
 
 .button-common {
@@ -26,4 +28,11 @@ button {
 .button-large {
     width: 14vw;
     font-size: 2.5vmin;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: var(--p1);
+    border: 2px solid var(--p1);
+    box-sizing: border-box;
 }
