@@ -16,6 +16,24 @@ export const services = [
   },
 ];
 
+export const wellnessPackages = [
+  {
+    image: "./../assets/wellnessPackages/wellnessPackages.png",
+    title: "WELLNESS PACKAGES",
+    path: "/about",
+  },
+  {
+    image: "./../assets/service-cards/retreatLiving.png",
+    title: "RETREAT LIVING",
+    path: "/about",
+  },
+  {
+    image: "../../assets/service-cards/consultationPackages.png",
+    title: "CONSULTATION PACKAGES",
+    path: "/about",
+  },
+];
+
 export const whyUsCards = [
   {
     image: "./../assets/whyUs/ayurvedaTradition.svg",

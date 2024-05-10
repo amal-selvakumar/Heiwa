@@ -1,0 +1,18 @@
+.wellness-packages-section {
+
+}
+
+.wellness-packages-section h1 {
+    text-align: center;
+}
+
+.wellness-packages-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.wellness-package-card {
+    display: flex;
+    flex-direction: column;
+}
