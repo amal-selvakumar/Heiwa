@@ -1,0 +1,135 @@
+.howItWorks{
+    width: 100%;
+    height: 100%;
+}
+
+.workContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.howItWorksTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.howItWorksTitle>span{
+    font-size: 2rem;
+    font-family: 'Josefin Sans';
+    margin: 8.224vh 0;
+}
+
+.howItWorksBottomDiv{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.howItWorksTopContent{
+    display: flex;
+}
+
+.howItWorksImageDiv{
+    margin: 0 1.2vw;
+}
+
+.howItWorksImageDiv>img{
+    width: 100%;
+}
+
+.howItWorksBottomContent{
+    display: flex;
+}
+
+.worksTopFirstContent{
+    width: 18.438vw;
+    min-height: 12.61vh;
+    margin-left: 13.438vw;
+    margin-bottom: 0.5vw;
+    text-align: center;
+}
+
+.worksTopFirstContent>span{
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    line-height: 1.438rem;
+    letter-spacing: 0.08rem;
+}
+
+.workTopSecondContent{
+    width: 14.193vw;
+    min-height: 12.61vh;
+    text-align: center;
+    margin-left: 15.921875vw;
+    margin-bottom: 0.5vw;
+}
+
+.workTopSecondContent>span{
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    line-height: 1.438rem;
+    letter-spacing: 0.08rem;
+}
+
+.workTopThirdContent{
+    width: 13.078vw;
+    min-height: 12.336vh;
+    text-align: center;
+    margin-left: 18.797vw;
+    margin-bottom: 0.5vw;
+}
+
+.workTopThirdContent>span{
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    line-height: 1.438rem;
+    letter-spacing: 0.08rem;
+}
+
+.worksBottomFirstContent{
+    width: 11.344vw;
+    min-height: 11.646vh;
+    text-align: center;
+    margin-left: 1.806vw;
+}
+
+.worksBottomFirstContent>span{
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    line-height: 1.438rem;
+    letter-spacing: 0.08rem;
+}
+
+.worksBottomSecondContent{
+    width: 15.344vw;
+    min-height: 11.646vh;
+    text-align: center;
+    margin-left: 18.8vw;
+}
+
+.worksBottomSecondContent>span{
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    line-height: 1.438rem;
+    letter-spacing: 0.08rem;
+}
+
+.worksBottomThirdContent{
+    width: 16.5vw;
+    min-height: 11.646vh;
+    text-align: center;
+    margin-left: 13.5vw;
+}
+
+.worksBottomThirdContent>span{
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    line-height: 1.438rem;
+    letter-spacing: 0.08rem;
+}
+
+
+

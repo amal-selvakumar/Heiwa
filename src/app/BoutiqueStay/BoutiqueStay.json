@@ -1,0 +1,28 @@
+[{
+    "imageUrl":"/src/app/Images/IslandRetreats.svg",
+    "title":"ISLAND RETREATS"
+},
+{
+    "imageUrl":"/src/app/Images/ForestDwellings.svg",
+    "title":"FOREST DWELLINGS"
+},
+{
+    "imageUrl":"/src/app/Images/CampingEscapes.svg",
+    "title":"CAMPING ESCAPES"
+},
+{
+    "imageUrl":"/src/app/Images/CulturalHomestays.svg",
+    "title":"CULTURAL HOMESTAYS"
+},
+{
+
+},
+{
+    "imageUrl":"/src/app/Images/BackwaterRetreats.svg",
+    "title":"BACKWATER RETREATS"
+},
+{
+    "imageUrl":"/src/app/Images/BeachsideBliss.svg",
+    "title":"BEACHSIDE BLISS"
+}
+]

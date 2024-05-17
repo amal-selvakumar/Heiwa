@@ -1,0 +1,34 @@
+.questions{
+    width: 100%;
+    height: 100%;
+    background: #EED7C5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.214vw;
+}
+
+.questionContentDiv>span{
+    font-family: 'Raleway';
+    font-size: 1.25rem;
+    line-height: 1.563rem;
+    letter-spacing: 0.05rem;
+}
+
+.questionButtonDiv{
+    display: flex;
+    gap: 0.625vw;
+}
+
+.questionButtonDiv>button{
+    width: 12.831vw;
+    height: 5.345vh;
+    background: #9E421B;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway';
+    color: #FFFFFF;
+    font-size: 0.85rem;
+}

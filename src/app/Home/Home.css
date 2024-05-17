@@ -1,0 +1,111 @@
+.home{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.homeContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeBottomContainer{
+    height: 100vh;
+    display: flex;
+}
+
+.homeBottomLeftContainer{
+    flex: 1;
+    background: #F5F3EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.646vw;
+    z-index: 1;
+}
+
+.heiwaHomeLogoContainer{
+    margin-left: 2.995vw;
+}
+
+.homeBottomRightContainer{
+    width: 27.456vw;
+    height: 100%;
+    background: #EED7C5;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.homeContent{
+    display: flex;
+    flex-direction: column;
+    width: 42.057vw;
+    min-height: 28.509vh;
+    gap: 0.651vw;
+    margin-left: 2.995vw;
+}
+
+.homeTitle>span{
+    font-family: 'Josefin Sans';
+    font-size: 2.188rem;
+    color: #000000;
+}
+
+.homeDescription>span{
+    font-family: 'Raleway';
+    font-size: 0.938rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0.05rem;
+}
+
+.homeContainerImage{
+    width: 20.378vw;
+    height: 57.155vh;
+    position: relative;
+    z-index: 2;
+    margin-left: -10.189vw;
+}
+
+.whatsappIconContainer{
+    position: fixed;
+    right: 0;
+    bottom: 2vw;
+}
+
+.changeContentDiv{
+    display: flex;
+    gap: 0.3vw;
+    display: flex;
+    justify-content: center;
+}
+
+.servicesContainer{
+    width: 100%;
+    height: 93.613vh;
+}
+
+.howItWorksContainer{
+    width: 100%;
+    height: 100vh;
+    background: #F5F3EF;
+}
+
+.aboutContainer{
+    width: 100%;
+    height: 80.729vh;
+    background: #EED7C5;
+}
+
+.whyUsContainer{
+    width: 100%;
+    height: 61.404vh;
+    background: #FFFFFF;
+}
+
+.footerContainer{
+    width: 100%;
+    height: 56.195vh;
+    background: #FDF0EA;
+}

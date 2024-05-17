@@ -1,0 +1,96 @@
+.services{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.serviceContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.65s ease-in-out;
+}
+
+.serviceHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.serviceTitle{
+    margin-top: 8.087vh;
+}
+
+.serviceTitle>span{
+    font-size: 2rem;
+    font-family: 'Josefin Sans';
+}
+
+.previousIcon,.nextIcon{
+    display: flex;
+    align-items: center;
+}
+
+.previousIcon>img, .nextIcon>img{
+    cursor: pointer;
+}
+
+.sliderContainer{
+    display: flex;
+    gap: 3.32vw;
+    width: 69.139vw;
+    overflow: hidden;
+}
+
+.serviceBottomContainer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderOuterContainer{
+    display: flex;
+    gap: 2vw;
+}
+
+.slider{
+    width: 20.833vw;
+    height: 58.936vh;
+    background: #F6ECE2;
+    flex-shrink: 0;
+    position: relative;
+    transition: transform 0.5s ease-in-out ;
+}
+
+.sliderInnerDiv{
+    width: 14.518vw;
+    height: 41.53vh;
+    background: #CC8874;
+    border-top-left-radius: 50vw;
+    border-top-right-radius: 50vw;
+    margin-left: 0.911vw;
+}
+
+.sliderImageDiv{
+    width: 14.648vw;
+    height: 39.2;
+    position: absolute;
+    top: 9.183vh;
+    left: 4.557vw;
+}
+
+.sliderContentDiv{
+    position: absolute;
+    top: 48.383vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.2vw;
+}
+
+.sliderContentDiv>span{
+    font-family: 'Josefin Sans';
+    font-size: 1.25rem;
+}
+

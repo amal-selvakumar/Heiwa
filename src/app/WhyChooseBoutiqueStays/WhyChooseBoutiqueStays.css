@@ -1,0 +1,72 @@
+.whyChooseBoutiqueStays{
+    width: 78.75vw;
+    min-height: 31.798vh;
+    margin-top: 9.548vh;
+    margin-bottom: 8.635vh;
+    display:flex ;
+    flex-direction: column;
+}
+
+.whyChooseBoutiqueStaysTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.whyChooseBoutiqueStaysTitle>span{
+  font-family: 'Josefin Sans';
+  font-size: 2rem;
+  color: #C3911A;
+}
+
+.whyChooseBoutiqueStaysContent{
+    flex: 1;
+    display: flex;
+    padding-top: 4.112vh;
+    justify-content: space-between;
+}
+
+.authenticityDiv{
+    display: flex;
+    flex-direction: column;
+    width: 19.219vw;
+    min-height: 23.026vh;
+    gap:2.056vh;
+}
+
+.personalizedDiv{
+    width: 15.9vw;
+    min-height: 22.889vh;
+    display: flex;
+    flex-direction: column;
+    gap:2.056vh;
+}
+
+.wellnessDiv{
+  width: 20.625vw;
+  min-height: 23.3vh;
+  display: flex;
+  flex-direction: column;
+  gap:2.056vh;
+}
+
+.topDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.bottomDiv{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  line-height: 1.563rem;
+  letter-spacing: 0.05rem;
+}
+
+.bottomContentTitle{
+    font-family: 'Raleway bold';
+}
+
+.bottomContent{
+    font-family: 'Raleway';
+}

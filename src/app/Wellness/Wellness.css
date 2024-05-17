@@ -1,0 +1,108 @@
+.wellness{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background: #F5F3EF;
+}
+
+.wellnessBottomContainer{
+    margin-top: 11.239vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:11.787vh ;
+}
+
+.wellnessTitle{
+    margin: 7.401vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wellnessTitle>span{
+    font-family: 'Josefin Sans';
+    font-size: 2rem;
+    color: #C3911A;
+}
+
+.wellnessIconsContainer{
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    row-gap: 3.757vh;
+    justify-items: center;
+    margin: 0 4vw;
+}
+
+.iconContainer:nth-child(6) .iconTitle>span {
+    max-width: 10.391vw;
+}
+
+.iconContainer:nth-child(8) .iconTitle>span {
+    max-width: 8.328vw;
+}
+
+.iconContainer:nth-child(11) .iconTitle {
+    max-width: 11.188vw;
+}
+
+.iconContainer:nth-child(17) .iconTitle>span {
+    max-width: 11.188vw;
+}
+
+.iconContainer:nth-child(18) .iconTitle>span {
+    max-width: 10.672vw;
+}
+
+.iconContainer:nth-child(19) .iconTitle>span {
+    max-width: 6.266vw;
+}
+
+.iconContainer{
+    width: 100%;
+    cursor: pointer;
+}
+
+.iconContainer>a{
+    all: unset;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconImage{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconImage>img{
+    transform: scale(0.8);
+}
+
+.iconTitle{
+    height: 20%;
+    max-width: 14vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 1.375rem;
+    letter-spacing: 0.05rem;
+}
+
+
+.iconTitle>span{
+    font-family: 'Raleway';
+    font-size: 0.938vw;
+    line-height: 1.375rem;
+    letter-spacing: 0.05rem;
+}
+
+.questionsDiv{
+    width: 100%;
+    height: 18.77vh;
+}

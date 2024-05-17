@@ -1,0 +1,51 @@
+.bookYourEscape{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.escapeContent{
+    flex: 1;
+    background: #EBD2BF;
+    display: flex;
+    align-items: center;
+}
+
+.escapeContentContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.234vw;
+    gap: 0.959vh;
+}
+
+.escapeTitle>span{
+    font-family: 'Josefin Semibold';
+    font-size: 2rem;
+}
+
+.escapeDescriptionContainer{
+    width: 33vw;
+    min-height: 16.447vh;
+}
+
+.escapeDescriptionContainer>span{
+    font-family: 'Raleway';
+    font-size: 1.063rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.05rem;
+}
+
+.enquireButton{
+    width: 10.859vw;
+    min-height: 5.345vh;
+    background: #9E421B;
+    border: none;
+    font-family: 'Raleway';
+    font-size: 0.75rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.enquireButtonContainer{
+    margin-top: 1.371vh;
+}

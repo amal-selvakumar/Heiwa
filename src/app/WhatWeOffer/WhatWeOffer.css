@@ -1,0 +1,65 @@
+.whatWeOffer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.whatWeOfferTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.whatWeOfferTitle>span{
+    font-family: 'Josefin Sans';
+    font-size: 2rem;
+    color: #C3911A;
+}
+
+.offerGridContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    row-gap: 4.888vh;
+    margin-top: 3.152vh;
+}
+
+.offerGrid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemBackground{
+    height: 50.485vh;
+    width: 17.846vw;
+    background: #F6ECE2;
+    position: relative;
+    cursor: pointer;
+}
+
+.itemInnerDiv{
+    width: 13.542vw;
+    height: 35.636vh;
+    background: #CC8874;
+    border-top-left-radius: 50vw;
+    border-top-right-radius: 50vw;
+    margin-left: 0.938vw;
+}
+
+.itemImageDiv{
+    position: absolute;
+    width: 12.565vw;
+    height: 33.58vh;
+    top: 7.813vh;
+    left: 3.75vw;
+}
+
+.itemTitleDiv{
+    position: absolute;
+    top: 43.86vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

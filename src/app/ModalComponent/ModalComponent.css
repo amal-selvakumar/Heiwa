@@ -1,0 +1,11 @@
+.modalComponent{
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+}

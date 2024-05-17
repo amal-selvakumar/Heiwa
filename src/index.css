@@ -1,0 +1,45 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('../src/app/Fonts/Josefin/static/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Josefin Bold';
+  src: url('../src/app/Fonts/Josefin/static/JosefinSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway Semibold';
+  src: url('../src/app/Fonts/Raleway/static/Raleway-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../src/app/Fonts/Raleway/static/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway medium';
+  src: url('../src/app/Fonts/Raleway/static/Raleway-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway bold';
+  src: url('../src/app/Fonts/Raleway/static/Raleway-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Josefin Semibold';
+  src: url('../src/app/Fonts/Josefin/static/JosefinSans-SemiBold.ttf');
+}
