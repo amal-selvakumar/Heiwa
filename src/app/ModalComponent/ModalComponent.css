@@ -5,7 +5,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: 2;
     position: fixed;
     top: 0;
+}
+
+.modal{
+    width: 71.094vw;
+    min-height: 60.992vh;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.modalImageDiv{
+    width: 34.453vw;
 }
