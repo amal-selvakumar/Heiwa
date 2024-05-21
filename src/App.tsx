@@ -4,6 +4,7 @@ import Home from './app/Home/Home';
 import Wellness from './app/Wellness/Wellness';
 import BoutiqueStay from './app/BoutiqueStay/BoutiqueStay';
 
+
 function App() {
 
 

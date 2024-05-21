@@ -49,3 +49,7 @@
 .enquireButtonContainer{
     margin-top: 1.371vh;
 }
+
+.escapeImage>img{
+    height: 100%;
+}

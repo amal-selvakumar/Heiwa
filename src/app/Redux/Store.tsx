@@ -1,11 +1,32 @@
 import { configureStore } from "@reduxjs/toolkit";
-import modalReducer from "./Slice/ModalSlice";
+import modalReducer from "./ModalSlice";
+import { combineReducers } from "@reduxjs/toolkit";
+import { persistStore,persistReducer } from "redux-persist";
+import storage from "redux-persist/lib/storage";
 
-export const store=configureStore({
-    reducer:{
-      modal:modalReducer
-    }
+const rootReducer = combineReducers({
+    modal:modalReducer
+})
+
+const persistConfig={
+    key:'root',
+    storage
+}
+
+const persistedReducer = persistReducer(persistConfig,rootReducer);
+
+const store = configureStore({
+    reducer:persistedReducer,
+    middleware:(getDefaultMiddleware)=>
+        getDefaultMiddleware({
+            serializableCheck:false,
+        })
 });
 
-export type RootState = ReturnType<typeof store.getState>;
-export type AppDispatch = typeof store.dispatch
+const persistor = persistStore(store);
+type RootState = ReturnType<typeof store.getState>;
+type AppDispatch = typeof store.dispatch;
+
+export {store,persistor};
+export type {RootState,AppDispatch};
+

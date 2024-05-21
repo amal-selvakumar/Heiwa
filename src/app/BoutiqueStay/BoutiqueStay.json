@@ -1,28 +1,94 @@
-[{
-    "imageUrl":"/src/app/Images/IslandRetreats.svg",
-    "title":"ISLAND RETREATS"
-},
 {
-    "imageUrl":"/src/app/Images/ForestDwellings.svg",
-    "title":"FOREST DWELLINGS"
-},
-{
-    "imageUrl":"/src/app/Images/CampingEscapes.svg",
-    "title":"CAMPING ESCAPES"
-},
-{
-    "imageUrl":"/src/app/Images/CulturalHomestays.svg",
-    "title":"CULTURAL HOMESTAYS"
-},
-{
+    "cardItems":[
+    {
+        "imageUrl":"/src/app/Images/CampingEscapes.svg",
+        "title":"CAMPING ESCAPES"
+    },
+    {
+        "imageUrl":"/src/app/Images/ForestDwellings.svg",
+        "title":"FOREST DWELLINGS"
+    },
+    {
+        "imageUrl":"/src/app/Images/IslandRetreats.svg",
+        "title":"ISLAND RETREATS"
+    },
+    {
+        "imageUrl":"/src/app/Images/CulturalHomestays.svg",
+        "title":"CULTURAL HOMESTAYS"
+    },
+    {
 
-},
-{
-    "imageUrl":"/src/app/Images/BackwaterRetreats.svg",
-    "title":"BACKWATER RETREATS"
-},
-{
-    "imageUrl":"/src/app/Images/BeachsideBliss.svg",
-    "title":"BEACHSIDE BLISS"
+    },
+    
+    {
+        "imageUrl":"/src/app/Images/BackwaterRetreats.svg",
+        "title":"BACKWATER RETREATS"
+    },
+    {
+        "imageUrl":"/src/app/Images/BeachsideBliss.svg",
+        "title":"BEACHSIDE BLISS"
+    }
+],
+ "modalItems":[
+    {
+        "imageUrl":"/src/app/Images/ForestDwellingCardImage.svg",
+        "title":"FOREST DWELLINGS",
+        "smallDescription":"Deep within lush rainforests.",
+        "firstListTitle":"Treehouses: ",
+        "firstListDescription":"Climb up into the canopy and find solace in treehouses perched high above the forest floor. Listen to the symphony of birds, spot wildlife, and reconnect with nature.",
+        "secondListTitle":"Eco-Cabins: ",
+        "secondListDescription":"Minimalistic yet cozy, these cabins blend seamlessly with the forest. Wake up to mist-kissed leaves and embark on guided nature walks."
+
+    },
+    {
+        "imageUrl":"/src/app/Images/IslandRetreatCardImage.svg",
+        "title":"ISLAND RETREATS",
+        "smallDescription":" Secluded islands surrounded by emerald waters.",
+        "firstListTitle":"Floating Cottages: ",
+        "firstListDescription":"Drift away on tranquil backwaters in charming cottages that seem to hover over the water. Wake up to the gentle lapping of waves and watch the sunrise from your private veranda.",
+        "secondListTitle":"Beachfront Huts: ",
+        "secondListDescription":"Nestled amidst coconut palms, these rustic huts offer direct access to pristine beaches. Feel the sand between your toes and let the sea breeze carry your worries away."
+
+    },
+    {
+        "imageUrl":"/src/app/Images/CampingEscapesCardImage.svg",
+        "title":"CAMPING ESCAPES",
+        "smallDescription":"Remote wilderness with star-studded skies.",
+        "firstListTitle":"Luxury Tents: ",
+        "firstListDescription":" Imagine waking up to the call of wild animals, surrounded by canvas walls adorned with intricate designs. Glamping combines comfort with adventure.",
+        "secondListTitle":"Bonfire Nights: ",
+        "secondListDescription":"Gather around crackling fires under the open sky. Share stories, stargaze, and let the wilderness weave its magic."
+
+    },
+    {
+        "imageUrl":"/src/app/Images/CulturalHomestaysCardImage.svg",
+        "title":"CULTURAL HOMESTAYS",
+        "smallDescription":"Location: Quaint villages steeped in tradition.",
+        "firstListTitle":"Local Hospitality: ",
+        "firstListDescription":"Stay with warm-hearted families who open their homes to guests. Learn traditional cooking, participate in rituals, and immerse yourself in local life.",
+        "secondListTitle":"Ayurvedic Retreats: ",
+        "secondListDescription":"Discover ancient healing practices. Ayurvedic massages, herbal baths, and personalized wellness routines await."
+
+    },
+    {
+        "imageUrl":"/src/app/Images/BackwaterRetreatsCardImage.svg",
+        "title":"BACKWATER RETREATS",
+        "smallDescription":"Location: Quaint villages steeped in tradition.",
+        "firstListTitle":"Backwater Bliss: ",
+        "firstListDescription":"Relax in serene houseboats as you drift through picturesque backwaters. Enjoy tranquil sunsets, birdwatching, and traditional cuisine prepared onboard.",
+        "secondListTitle":"Cultural Encounters: ",
+        "secondListDescription":"Engage with local communities along the backwaters. Experience folk performances, visit riverside villages, and learn about traditional fishing methods."
+
+    },
+    {
+        "imageUrl":"/src/app/Images/BeachsideBlissCardImage.svg",
+        "title":"BEACHSIDE BLISS",
+        "smallDescription":"Location: Quaint villages steeped in tradition.",
+        "firstListTitle":"Relaxation Oasis: ",
+        "firstListDescription":"Experience ultimate relaxation as you unwind on soft, powdery sands, letting the soothing sounds of the ocean lull you into a state of tranquility.",
+        "secondListTitle":"Adventure Playground: ",
+        "secondListDescription":"Dive into thrilling water sports like surfing, snorkeling, or jet skiing, or simply stroll along the shoreline, collecting seashells and enjoying breathtaking sunsets."
+
+    }
+ ]
 }
-]

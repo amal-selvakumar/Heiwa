@@ -1,15 +1,9 @@
 .boutiqueStay{
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
-.whyChooseBoutiqueStayDiv{
-    width: 100%;
+.whyChooseContainer{
     display: flex;
     justify-content: center;
-}
-
-.bookYourEscapeContainer{
-    width: 100%;
-    height: 57.977vh;
 }
