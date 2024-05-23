@@ -6,7 +6,7 @@ import ayurvedaData from './AyurvedaRetreat.json';
 
 export default function AyurvedaRetreat() {
     const backgroundImage = {
-        backgroundImage:`url('/src/app/Images/AyurvedaRetreatBackground.svg')`
+        backgroundImage:`url('/Images/AyurvedaRetreatBackground.svg')`
     }
 
     const description = `<p style="font-family: 'Raleway Semibold'; margin-block-end:0;">What is Ayurveda?</p>Ayurveda, the ancient science of life, is a holistic approach to wellness that originated in India over 5,000 years ago. The term "Ayurveda" is derived from the Sanskrit words "ayur" meaning "life" and "veda" meaning "science" or "knowledge." It is a comprehensive system of natural healthcare that aims to balance the body, mind, and spirit to promote overall health and well-being. Ayurveda is based on the understanding that each individual is unique, with their own distinct constitution (known as "dosha") and life force (known as "prana"). It offers a personalized approach to health, using a combination of diet, lifestyle, herbal remedies, yoga, and meditation to restore balance and harmony.

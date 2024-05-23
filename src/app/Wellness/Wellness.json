@@ -1,75 +1,75 @@
 [{
-    "imageUrl":"/src/app/Images/BoutiqueStayRetreat.svg",
+    "imageUrl":"/Images/BoutiqueStayRetreat.svg",
     "content":"Boutique stay retreat",
     "path":"/boutique-stay-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/AyurvedaRetreat.svg",
+    "imageUrl":"/Images/AyurvedaRetreat.svg",
     "content":"Ayurveda retreat",
     "path":"/ayurveda-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/YogaRetreat.svg",
+    "imageUrl":"/Images/YogaRetreat.svg",
     "content":"Yoga and meditative retreat",
     "path":"/yoga-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/WellnessRetreat.svg",
+    "imageUrl":"/Images/WellnessRetreat.svg",
     "content":"Wellness sleep retreat",
     "path":"/wellness-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/RelaxRetreat.svg",
+    "imageUrl":"/Images/RelaxRetreat.svg",
     "content":"Relax retreat",
     "path":"/relax-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/ModernBeauty.svg",
+    "imageUrl":"/Images/ModernBeauty.svg",
     "content":"Modern beauty retreat",
     "path":"/modern-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/HolisticRetreat.svg",
+    "imageUrl":"/Images/HolisticRetreat.svg",
     "content":"Holistic/Ayurvedic women wellness retreat",
     "path":"/holistic-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/HormonalRetreat.svg",
+    "imageUrl":"/Images/HormonalRetreat.svg",
     "content":"Hormonal/Immunity retreat",
     "path":"/hormonal-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/BurnoutRetreat.svg",
+    "imageUrl":"/Images/BurnoutRetreat.svg",
     "content":"Burnout management retreat",
     "path":"/burnout-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/LeisureRetreat.svg",
+    "imageUrl":"/Images/LeisureRetreat.svg",
     "content":"Leisure retreat",
     "path":"/leisure-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/SpiritualRetreat.svg",
+    "imageUrl":"/Images/SpiritualRetreat.svg",
     "content":"Spiritual wellness retreat",
     "path":"/spiritual-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/MedicalRetreat.svg",
+    "imageUrl":"/Images/MedicalRetreat.svg",
     "content":"Modern medical retreat",
     "path":"/modern-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/CulinaryRetreat.svg",
+    "imageUrl":"/Images/CulinaryRetreat.svg",
     "content":"Culinary retreat",
     "path":"/culinary-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/CulturalRetreat.svg",
+    "imageUrl":"/Images/CulturalRetreat.svg",
     "content":"Cultural retreat",
     "path":"/cultural-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/FitnessRetreat.svg",
+    "imageUrl":"/Images/FitnessRetreat.svg",
     "content":"Fitness retreat",
     "path":"/fitness-retreat"
 },
@@ -77,17 +77,17 @@
   
 },
 {
-    "imageUrl":"/src/app/Images/CorporateRetreat.svg",
+    "imageUrl":"/Images/CorporateRetreat.svg",
     "content":"Corporate group retreat",
     "path":"/corporate-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/EventRetreats.svg",
+    "imageUrl":"/Images/EventRetreats.svg",
     "content":"Event-oriented wellness retreat",
     "path":"/event-retreat"
 },
 {
-    "imageUrl":"/src/app/Images/VirtualRetreat.svg",
+    "imageUrl":"/Images/VirtualRetreat.svg",
     "content":"Virtual retreat",
     "path":"/virtual-retreat"
 }

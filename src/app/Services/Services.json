@@ -4,23 +4,23 @@
         "title":"WELLNESS PACKAGES"
     },
     {
-        "imageUrl": "/src/app/Images/BoutiqueImage.svg",
+        "imageUrl": "/Images/BoutiqueImage.svg",
         "title":"BOUTIQUE STAY RETREAT"
     },
     {
-        "imageUrl": "/src/app/Images/DoctorImage.svg",
+        "imageUrl": "/Images/DoctorImage.svg",
         "title":"DOCTOR CONSULTATION"
     },
     {
-        "imageUrl": "/src/app/Images/CulturalImage.svg",
+        "imageUrl": "/Images/CulturalImage.svg",
         "title":"CULTURAL RETREAT"
     },
     {
-        "imageUrl": "/src/app/Images/YogaImage.svg",
+        "imageUrl": "/Images/YogaImage.svg",
         "title":"YOGA RETREAT"
     },
     {
-        "imageUrl": "/src/app/Images/MedicalImage.svg",
+        "imageUrl": "/Images/MedicalImage.svg",
         "title":"MEDICATION RETREAT"
     }
 ]

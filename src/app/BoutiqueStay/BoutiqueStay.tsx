@@ -10,7 +10,7 @@ import WhatWeOffer from '../WhatWeOffer/WhatWeOffer';
 
 export default function BoutiqueStay() {
     const backgroundImage={
-        backgroundImage:`url('/src/app/Images/BoutiqueStay.svg')`
+        backgroundImage:`url('/Images/BoutiqueStay.svg')`
     }
 
     const description="Welcome to India, where lush greenery, serene backwaters, and ancient traditions converge. Our boutique stays are not your typical resorts; they are the well-kept secrets cherished by locals and discerning travelers alike. Each stay promises an intimate connection with nature, a glimpse into India’s soul, and a wellness journey like no other.";
