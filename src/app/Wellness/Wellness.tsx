@@ -30,15 +30,18 @@ export default function Wellness() {
         <div className='wellnessIconsContainer'>
            {wellnessData.map((data:WellnessData)=>(
             <div className='iconContainer'>
-              <NavLink to={data.path}>
-              <div className='iconImage'>
-                <img src={data?.imageUrl}/>
-              </div>
+              {data.content && data.path && data.imageUrl ? (
+                <NavLink to={data.path}>
+                <div className='iconImage'>
+                  <img src={data?.imageUrl}/>
+                </div>
+  
+                <div className='iconTitle'>
+                  <span>{data.content}</span>
+                </div>
+                </NavLink>
+              ):null}
 
-              <div className='iconTitle'>
-                <span>{data.content}</span>
-              </div>
-              </NavLink>
             </div>
            ))}
         </div>
