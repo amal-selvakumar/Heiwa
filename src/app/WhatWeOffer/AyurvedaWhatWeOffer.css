@@ -1,0 +1,107 @@
+.ayurvedaWhatWeOffer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ayurvedaTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.ayurvedaTitle>span{
+    font-size: 2rem;
+    font-family: 'Josefin Sans';
+    color: #C3911A;
+}
+
+.ayurvedaContent{
+    margin-top: 4vh;
+    display:flex;
+    justify-content: center;
+}
+
+.ayurvedaGridContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    column-gap: 3.359vw;
+}
+
+.ayurvedaItemDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ayurvedaItemBackground{
+    width: 33.398vw;
+    height: 83.607vh;
+    background: #F2EEE5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.ayurvedaItemImage>img{
+    margin: 3.838vh 0;
+}
+
+.ayurvedaItemTitle>span{
+    font-family: 'Josefin Sans';
+    font-size: 1.563rem;
+    color: #C3911A;
+}
+
+.ayurvedaItemContent{
+  width: 30.404vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.645vh;
+}
+
+.ayurvedaItemTopContent{
+    text-align: center;
+}
+
+.ayurvedaItemTopContent>span{
+    font-family: 'Raleway';
+    font-size: 0.938rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.05rem;
+}
+
+.ayurvedaItemBottomContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    text-align: center;
+    align-items: center;
+    margin-top: 0.8vw;
+}
+
+.ayurvedaFlexDiv{
+    display: flex;
+    gap: 0.547vw;
+    justify-content: center;
+}
+
+.ayurvedaFlexDiv>span{
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 0.938rem;
+}
+
+.ayurvedaLinkDiv{
+    position: absolute;
+    bottom: 2.33vh;
+    display: flex;
+    gap: 0.5vw;
+}
+
+.ayurvedaLinkDiv>a{
+    color: #3291F0;
+}

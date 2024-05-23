@@ -3,3 +3,19 @@
   width: 100vw;
   font-family: "Josefin Sans", sans-serif;
 }
+
+/* CSS to reduce the width of the scrollbar */
+::-webkit-scrollbar {
+  width: 8px!important; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Background color of the scrollbar thumb */
+  border-radius: 4px; /* Optional: Add round corners to the scrollbar thumb */
+}
+
+

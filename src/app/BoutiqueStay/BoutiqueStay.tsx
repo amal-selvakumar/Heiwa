@@ -6,6 +6,7 @@ import './BoutiqueStay.css';
 import boutiqueData from './BoutiqueStay.json';
 import { RootState } from '../Redux/Store';
 import ModalComponent from '../ModalComponent/ModalComponent';
+import WhatWeOffer from '../WhatWeOffer/WhatWeOffer';
 
 export default function BoutiqueStay() {
     const backgroundImage={
@@ -26,7 +27,11 @@ export default function BoutiqueStay() {
     return (
     <div className='boutiqueStay'>
       <WellnessTemplate backgroundImage={backgroundImage} title='BOUTIQUE STAY RETREAT' description={description}
-      contentWidth={contenWidth} data={boutiqueData.cardItems}>
+      contentWidth={contenWidth}>
+
+      <div className='whatWeOfferDiv'>
+        <WhatWeOffer data={boutiqueData.cardItems}/>
+      </div>
       
       <div className='whyChooseContainer'>
         <WhyChooseBoutiqueStays/>

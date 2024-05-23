@@ -1,7 +1,6 @@
 import Navbar from '../Navbar/Navbar';
 import './WellnessTemplate.css';
 import whatsappIcon from '../Images/WhatsappIcon.svg';
-import WhatWeOffer from '../WhatWeOffer/WhatWeOffer';
 import Footer from '../Footer/Footer';
 
 type WellnessType={
@@ -9,14 +8,10 @@ type WellnessType={
     title:string;
     description:string;
     contentWidth:React.CSSProperties;
-    data:{
-      imageUrl?:string;
-      title?:string
-    }[];
     children:React.ReactNode;
 }
 
-export default function WellnessTemplate({backgroundImage,title,description,contentWidth,data,children}:WellnessType) {
+export default function WellnessTemplate({backgroundImage,title,description,contentWidth,children}:WellnessType) {
   return (
     <div className='wellnessTemplate'>
         <div className='wellnessTemplateContainer'>
@@ -29,15 +24,11 @@ export default function WellnessTemplate({backgroundImage,title,description,cont
             </div>
 
             <div className='wellnessContent'>
-               <span style={contentWidth}>{description}</span>
+               <span style={contentWidth} dangerouslySetInnerHTML={{__html:description}}></span>
             </div>
 
             <div className='whatsappIconContainer'>
               <img src={whatsappIcon} alt='whatsappIcon'/>
-             </div>
-
-             <div className='whatWeOfferDiv'>
-              <WhatWeOffer data={data}/>
              </div>
 
              {children}
