@@ -1,0 +1,42 @@
+{
+    "cardItems":[
+    {
+        "imageUrl":"/src/app/Images/AyurvedaMassages.svg",
+        "title":"AYURVDEDA MASSAGES",
+        "path":"/ayurveda-massages"
+    },
+    {
+        "imageUrl":"/src/app/Images/AyurvedaPersonalizedTreatments.svg",
+        "title":"AYURVEDA PERSONALIZED TREATMENTS",
+        "path":"/ayurveda-personalized-treatments"
+    },
+    {
+        "imageUrl":"/src/app/Images/AyurvedaBeauty.svg",
+        "title":"AYURVEDA BEAUTY AND <br>SKIN REJUVENATION</br>",
+        "path":"ayurveda-beauty"
+    },
+    {
+        "imageUrl":"/src/app/Images/AyurvedaWeightManagement.svg",
+        "title":"AYURVEDA WEIGHT <br>MANAGEMENT</br>",
+        "path":"/ayurveda-weight-management"
+    },
+    {
+
+    },
+    {
+        "imageUrl":"/src/app/Images/AyurvedaPreConsultation.svg",
+        "title":"AYURVEDIC PRE <br>CONSULTATION</br>",
+        "path":"/ayurveda-pre-consultation"
+    },
+    {
+        "imageUrl":"/src/app/Images/Gynecology.svg",
+        "title":"GYNECOLOGICAL <br>CONSULTATION</br>",
+        "path":"/gynecological-consultation"
+    },
+    {
+        "imageUrl":"/src/app/Images/KalariTreatment.svg",
+        "title":"KALARI <br>TREATMENT</br>",
+        "path":"/kalari-treatment"
+    }
+]
+}

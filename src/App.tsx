@@ -3,8 +3,9 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Home from './app/Home/Home';
 import Wellness from './app/Wellness/Wellness';
 import BoutiqueStay from './app/BoutiqueStay/BoutiqueStay';
-import AyurvedaRetreat from './app/AyurvedaRetreat/AyurvedaRetreat';
-import AyurvedaMassages from './app/AyurvedaMassages/AyurvedaMassages';
+import AyurvedaRetreat from './app/Ayurveda/AyurvedaRetreat/AyurvedaRetreat';
+import AyurvedaMassages from './app/Ayurveda/AyurvedaMassages/AyurvedaMassages';
+import AyurvedaPersonalized from './app/Ayurveda/AyurvedaPersonalizedTreatments/AyurvedaPersonalized';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/boutique-stay-retreat' element={<BoutiqueStay/>}/>
           <Route path='/ayurveda-retreat' element={<AyurvedaRetreat/>}/>
           <Route path='/ayurveda-massages' element={<AyurvedaMassages/>}/>
+          <Route path='/ayurveda-personalized-treatments' element={<AyurvedaPersonalized/>}/>
         </Routes>
       </Router>
     </div>

@@ -27,6 +27,7 @@
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
     column-gap: 3.359vw;
+    row-gap: 5.894vh;
 }
 
 .ayurvedaItemDiv{

@@ -24,11 +24,11 @@ export default function NavbarDropdown() {
      {showDropdown ? (
       <div className='dropdown'>
         {dropdownData.map((data)=>(
+          <NavLink to={data.path}>
           <div className='dropdownItem'>
-            <NavLink to={data.path}>
               <span>{data.value}</span>
-            </NavLink>
           </div>
+          </NavLink>
         ))}
       </div>
      ):null}

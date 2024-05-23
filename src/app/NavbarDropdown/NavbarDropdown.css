@@ -39,12 +39,12 @@
     min-height: 6.5vh;
     display: flex;
     align-items: center;
-    border-bottom: 0.5px solid #CDCDCD;
+    border-bottom: 0.5px solid #CDCDCD!important;
     padding-left: 0.4vw;
     cursor: pointer;
 }
 
-.dropdownItem> a{
+.dropdown> a{
     all: unset;
 }
 
@@ -52,7 +52,7 @@
     border-bottom: none;
 }
 
-.dropdownItem> a> span{
+.dropdown> a> .dropdownItem> span{
     font-size: 0.8rem;
     font-family: 'Raleway Semibold';
     color: #9E421B;
