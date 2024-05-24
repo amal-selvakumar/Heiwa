@@ -6,6 +6,7 @@ import BoutiqueStay from './app/BoutiqueStay/BoutiqueStay';
 import AyurvedaRetreat from './app/Ayurveda/AyurvedaRetreat/AyurvedaRetreat';
 import AyurvedaMassages from './app/Ayurveda/AyurvedaMassages/AyurvedaMassages';
 import AyurvedaPersonalized from './app/Ayurveda/AyurvedaPersonalizedTreatments/AyurvedaPersonalized';
+import AyurvedaBeauty from './app/Ayurveda/AyurvedaBeauty/AyurvedaBeauty';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path='/ayurveda-retreat' element={<AyurvedaRetreat/>}/>
           <Route path='/ayurveda-massages' element={<AyurvedaMassages/>}/>
           <Route path='/ayurveda-personalized-treatments' element={<AyurvedaPersonalized/>}/>
+          <Route path='/ayurveda-beauty' element={<AyurvedaBeauty/>}/>
         </Routes>
       </Router>
     </div>

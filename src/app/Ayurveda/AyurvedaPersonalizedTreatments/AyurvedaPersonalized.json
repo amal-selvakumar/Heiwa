@@ -16,28 +16,32 @@
     "content":"Take the first step towards optimal health with our personalized Ayurveda treatment plans. Our expert Ayurveda doctors will work closely with you to understand your unique health concerns, such as gut imbalances, immunity issues, or chronic pain. Through a comprehensive consultation, we will identify the root cause of your disorder and create a customized treatment plan tailored to your specific needs. Our plans may include dietary guidance, herbal remedies, yoga and meditation, and lifestyle modifications to help you achieve lasting wellness and vitality. Let us help you find balance and harmony in your body, mind, and spirit ",
     "whatWeOffer":[
         {
-            "image":"/Images/ShirodaraImg.svg",
-            "title":"SHIRODHARA",
-            "description":"Indulge in profound relaxation and mental clarity with the ancient therapy of Shirodhara, featuring a gentle stream of warm oil cascading over the forehead, soothing the nervous system.",
-            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Ayurvedic oil massage</span> | <img src='/Images/FlowerIcon.svg'/><span>Aromatherapy</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Meditation or mindfulness exercises</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Sound therapy sessions</span></div>"
+            "image":"/Images/ThyroidHealthImg.svg",
+            "title":"GUT AND THYROID HEALTH RETREAT",
+            "description":"Restore digestive harmony and rebalance thyroid function with tailored diets, herbal remedies, and yoga practices, nurturing overall vitality.",
+            "recommendedTitle":"Recommended Addons:",
+            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Herbal teas or supplements</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Digestive health assessments</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Ayurvedic cooking classes</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Mindfulness and stress-reduction workshops</span></div>"
         },
         {
-            "image":"/Images/PanchakarmaImg.svg",
-            "title":"PANCHAKARMA DETOX",
-            "description":"Ayurvedic Panchakarma is a highly popular wellness resort program that is offered exclusively to guests seeking natural detoxification and rejuvenation. This five step cleansing program helps in gut health management, weight loss, and synchronization of mind and body for holistic well-being. The duration of this program can be of 7,10, 14, or 21 days.",
-            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Biomarker analysis and checking vital parameters</div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Dhara Therapy</span> | <img src='/Images/FlowerIcon.svg'/><span>Panchakarma Therapies</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Ayurvedic Massages</span> | <img src='/Images/FlowerIcon.svg'/><span>Snehana Process</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Pranayama or Yogic Cleansing </div>"
+            "image":"/Images/HolisticDetoxImg.svg",
+            "title":"HOLISTIC DETOX",
+            "description":"Comprehensive holistic detoxification involves purifying the body, mind, and spirit through natural methods and lifestyle adjustments.",
+            "recommendedTitle":"Recommended Addons:",
+            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Personalized Detox</span> <span> | </span> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Invigorating Hydrotherapy</span></div></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>1-on-1 Physician Consultation for Dosha Analysis</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Body Impedance Analysis for Precision</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Sleep Programming for Restorative Rest</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Biofeedback for Mind-Body Harmony</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Nature Exposure and Tranquil Trails <a href='' style='margin-left:0.5vw; color:#3291F0;'>See more</a></span></div>"
         },
         {
-            "image":"/Images/ShirodaraImg.svg",
-            "title":"SHIRODHARA",
-            "description":"Indulge in profound relaxation and mental clarity with the ancient therapy of Shirodhara, featuring a gentle stream of warm oil cascading over the forehead, soothing the nervous system.",
-            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Ayurvedic oil massage</span> | <img src='/Images/FlowerIcon.svg'/><span>Aromatherapy</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Meditation or mindfulness exercises</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Sound therapy sessions</span></div>"
+            "image":"/Images/InflammatoryImg.svg",
+            "title":"INFLAMMATORY DISORDER RETREAT",
+            "description":"Ayurveda offers a holistic approach to managing inflammatory disorders such as arthritis, fibromyalgia, and autoimmune diseases. Our treatments aim to reduce inflammation, alleviate pain, and promote overall well-being.",
+            "recommendedTitle":"Recommended Addons:",
+            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Ayurvedic oil massage</span> <span>|</span> <img src='/Images/FlowerIcon.svg'/><span>Herbal remedies</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Panchakarma detoxification programs</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Stress management techniques</span></div>"
         },
         {
-            "image":"/Images/ShirodaraImg.svg",
-            "title":"SHIRODHARA",
-            "description":"Indulge in profound relaxation and mental clarity with the ancient therapy of Shirodhara, featuring a gentle stream of warm oil cascading over the forehead, soothing the nervous system.",
-            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Ayurvedic oil massage</span> | <img src='/Images/FlowerIcon.svg'/><span>Aromatherapy</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Meditation or mindfulness exercises</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Sound therapy sessions</span></div>"
+            "image":"/Images/ImmunityBoosterImg.svg",
+            "title":"IMMUNITY BOOSTER PROGRAM",
+            "description":"Elevate your body's defenses with a bespoke blend of Ayurvedic herbs, nutritional guidance, and lifestyle enhancements, fortifying resilience against ailments.",
+            "recommendedTitle":"Recommended Addons:",
+            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Yoga and meditation sessions</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Immune-boosting herbal supplements</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Guided nature walks</span> <span>|</span> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Outdoor activities</span></div>"
         }
     ]
         

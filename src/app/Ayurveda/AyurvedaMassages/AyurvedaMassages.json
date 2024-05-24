@@ -13,13 +13,13 @@
             "image":"/Images/ShirodaraImg.svg",
             "title":"SHIRODHARA",
             "description":"Indulge in profound relaxation and mental clarity with the ancient therapy of Shirodhara, featuring a gentle stream of warm oil cascading over the forehead, soothing the nervous system.",
-            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Ayurvedic oil massage</span> | <img src='/Images/FlowerIcon.svg'/><span>Aromatherapy</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Meditation or mindfulness exercises</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Sound therapy sessions</span></div>"
+            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Ayurvedic oil massage</span> <span>|</span> <img src='/Images/FlowerIcon.svg'/><span>Aromatherapy</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Meditation or mindfulness exercises</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Sound therapy sessions</span></div>"
         },
         {
             "image":"/Images/PanchakarmaImg.svg",
             "title":"PANCHAKARMA DETOX",
             "description":"Ayurvedic Panchakarma is a highly popular wellness resort program that is offered exclusively to guests seeking natural detoxification and rejuvenation. This five step cleansing program helps in gut health management, weight loss, and synchronization of mind and body for holistic well-being. The duration of this program can be of 7,10, 14, or 21 days.",
-            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Biomarker analysis and checking vital parameters</div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Dhara Therapy</span> | <img src='/Images/FlowerIcon.svg'/><span>Panchakarma Therapies</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Ayurvedic Massages</span> | <img src='/Images/FlowerIcon.svg'/><span>Snehana Process</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Pranayama or Yogic Cleansing </div>"
+            "points":"<div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Biomarker analysis and checking vital parameters</div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Dhara Therapy</span> <span>|</span> <img src='/Images/FlowerIcon.svg'/><span>Panchakarma Therapies</span></div>  <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Ayurvedic Massages</span> <span>|</span> <img src='/Images/FlowerIcon.svg'/><span>Snehana Process</span></div> <div class='ayurvedaFlexDiv'><img src='/Images/FlowerIcon.svg'/><span>Pranayama or Yogic Cleansing </div>"
         }
     ]
         

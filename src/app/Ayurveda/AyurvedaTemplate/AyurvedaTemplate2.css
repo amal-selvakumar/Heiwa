@@ -1,0 +1,90 @@
+.ayurvedaTemplate2{
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    background: #F5F3EF;
+}
+
+.template2Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.template2Background{
+    width: 100%;
+    height: 66.749vh;
+    background: #E1C7A5;
+    margin-top: 11.239vh;
+    background-image: url('../../../../public/Images/AyurvedaMassageVector.svg'),url('../../../../public/Images/AyurvedaBeautyVector.svg');
+    background-position: right center , center;
+    background-repeat: no-repeat,no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.template2Background>img{
+    margin-left: 10.625vw;
+}
+
+.template2ContentDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.template2Title,.template2SecondTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.template2Title>span,.template2SecondTitle>span{
+    font-size: 2rem;
+    color: #C3911A;
+    margin-top: 5.208vh;
+}
+
+.template2Content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.template2Content>span{
+    font-family: 'Raleway';
+    font-size: 1.063rem;
+    line-height: 1.563rem;
+    letter-spacing: 0.05rem;
+    margin-top: 3vh;
+}
+
+.template2SecondContent{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.packageInclusionDiv{
+    display: flex;
+    gap: 1vw;
+}
+
+.packageFlexDiv{
+    display: flex;
+    gap: 0.5vw;
+}
+
+.packageFlexDiv>span{
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 0.938rem;
+    line-height: 2.125rem;
+    letter-spacing: 0.05rem;
+}
+
+.packageInclusionDiv>span{
+    display: flex;
+    align-items: center;
+}

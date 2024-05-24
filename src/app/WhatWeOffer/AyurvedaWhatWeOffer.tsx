@@ -6,6 +6,7 @@ type WhatWeOfferType = {
         image:string;
         title:string;
         description:string;
+        recommendedTitle?:string;
         points:string;
     }[]
 }
@@ -34,6 +35,12 @@ export default function AyurvedaWhatWeOffer({data}:WhatWeOfferType) {
                 <div className='ayurvedaItemTopContent'>
                     <span>{item.description}</span>
                 </div>
+
+                {item.recommendedTitle ? (
+                  <div className='recommendedTitleContainer'>
+                    <span>{item.recommendedTitle}</span>
+                  </div>
+                ):null}
 
                 <div className='ayurvedaItemBottomContent' dangerouslySetInnerHTML={{__html:item.points}}>
                 </div>

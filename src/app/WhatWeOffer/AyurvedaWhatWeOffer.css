@@ -38,7 +38,7 @@
 
 .ayurvedaItemBackground{
     width: 33.398vw;
-    height: 83.607vh;
+    height: 85.607vh;
     background: #F2EEE5;
     display: flex;
     flex-direction: column;
@@ -74,10 +74,21 @@
     letter-spacing: 0.05rem;
 }
 
+.recommendedTitleContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8vw;
+}
+
+.recommendedTitleContainer>span{
+    font-family: 'Raleway Semibold';
+    color: #9E421B;
+}
+
 .ayurvedaItemBottomContent{
     display: flex;
     flex-direction: column;
-    gap: 1vw;
+    /* gap: 0.8vw; */
     text-align: center;
     align-items: center;
     margin-top: 0.8vw;
@@ -94,6 +105,8 @@
     align-items: center;
     font-family: 'Raleway';
     font-size: 0.938rem;
+    line-height: 2.125rem;
+    letter-spacing: 0.05rem;
 }
 
 .ayurvedaLinkDiv{
@@ -101,8 +114,15 @@
     bottom: 2.33vh;
     display: flex;
     gap: 0.5vw;
+    font-size: 0.938rem;
 }
 
 .ayurvedaLinkDiv>a{
     color: #3291F0;
+    font-family: 'Raleway';
+}
+
+.ayurvedaLinkDiv>span{
+    font-family: 'Raleway Semibold';
+    color: #9E421B;
 }
