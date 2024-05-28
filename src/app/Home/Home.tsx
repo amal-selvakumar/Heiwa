@@ -2,7 +2,7 @@ import Navbar from '../Navbar/Navbar';
 import './Home.css';
 import heiwaHomeLogo from '../Images/HeiwaHomeLogo.svg';
 import homeImg from '../Images/HomeImage.svg';
-import whatsappIcon from '../Images/WhatsappIcon.svg';
+import whatsappIcon from '../../../public/Images/WhatsappIcon.svg';
 import ellipse from '../Images/Ellipse 12.svg';
 import Services from '../Services/Services';
 import HowItWorks from '../HowItWorks/HowItWorks';

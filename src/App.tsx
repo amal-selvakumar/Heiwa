@@ -7,6 +7,10 @@ import AyurvedaRetreat from './app/Ayurveda/AyurvedaRetreat/AyurvedaRetreat';
 import AyurvedaMassages from './app/Ayurveda/AyurvedaMassages/AyurvedaMassages';
 import AyurvedaPersonalized from './app/Ayurveda/AyurvedaPersonalizedTreatments/AyurvedaPersonalized';
 import AyurvedaBeauty from './app/Ayurveda/AyurvedaBeauty/AyurvedaBeauty';
+import AyurvedaWeightManagement from './app/Ayurveda/AyurvedaWeightManagement/AyurvedaWeightManagement';
+import AyurvedaConsultation from './app/Ayurveda/AyurvedaConsultation/AyurvedaConsultation';
+import Gynecology from './app/Ayurveda/Gynecology/Gynecology';
+import Kalari from './app/Ayurveda/Kalari/Kalari';
 
 
 function App() {
@@ -23,6 +27,10 @@ function App() {
           <Route path='/ayurveda-massages' element={<AyurvedaMassages/>}/>
           <Route path='/ayurveda-personalized-treatments' element={<AyurvedaPersonalized/>}/>
           <Route path='/ayurveda-beauty' element={<AyurvedaBeauty/>}/>
+          <Route path='/ayurveda-weight-management' element={<AyurvedaWeightManagement/>}/>
+          <Route path='/ayurveda-pre-consultation' element={<AyurvedaConsultation/>}/>
+          <Route path='/gynecological-consultation' element={<Gynecology/>}/>
+          <Route path='/kalari-treatment' element={<Kalari/>}/>
         </Routes>
       </Router>
     </div>

@@ -1,0 +1,170 @@
+.kalari{
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    background: #F5F3EF;
+}
+
+.kalariContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.kalariBottomContainer{
+    margin-top: 11.239vh;
+    height: 66.749vh;
+    width: 100%;
+    background: #E1C7A5;
+    background-image: url('../../../../public/Images/AyurvedaMassageVector.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: flex;
+    align-items: center;
+}
+
+.kalariBottomContainer>img{
+    margin-left: 10.625vw;
+}
+
+.kalariContentContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.kalariTopContent{
+    display: flex;
+    flex-direction: column;
+    margin: 5.208vh 0;
+}
+
+.kalariTopTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.kalariTopTitle>span{
+    font-size: 2rem;
+    color: #C3911A;
+}
+
+.kalariTopContents{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.33vh;
+}
+
+.multipleContentDiv{
+    display: flex;
+    gap: 0.5vw;
+}
+
+.multipleContentDiv>.kalariFlexDiv>span:nth-child(1){
+    font-family: 'Raleway';
+    font-size: 0.938rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.05rem;
+}
+
+.multipleContentDiv>.kalariFlexDiv>span:nth-child(2){
+    color: #C3911A;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+
+.kalariFlexDiv{
+    display: flex;
+    gap: 0.5vw;
+}
+
+.kalariTopContents>span:nth-child(odd){
+  font-family: 'Raleway';
+  font-size: 0.938rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.05rem;
+}
+
+.kalariTopContents>span:nth-child(even){
+    font-family: 'Raleway Semibold';
+    font-size: 0.938rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.05rem;
+    color: #9C4322;
+}
+
+.kalariCardContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.kalariGridContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    column-gap: 2.266vw;
+    row-gap: 2.266vw;
+}
+
+.kalariDivContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.kalariDiv{
+    width: 33.398vw;
+    height: 70.313vh;
+    background: #F2EEE5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kalariDivTitle{
+    margin-top: 7.401vh;
+}
+
+.kalariDivTitle>span{
+    font-size: 1.563rem;
+    color: #C3911A;
+    letter-spacing: 0.05rem;
+}
+
+.kalariDivContents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.878vh;
+}
+
+.kalariDivContent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.kalariDivContent>span>ul{
+    padding-inline-start: 10px;
+    margin-block-start: 0;
+}
+
+.kalariTitle>span{
+    font-family: 'Raleway Semibold';
+    font-size: 0.938rem;
+    color: #9E421B;
+    line-height: 1.875rem;
+    letter-spacing: 0.05rem;
+}
+
+.kalariDivContent>span{
+    font-family: 'Raleway';
+    font-size: 0.938rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.05rem;
+}
+
+.kalariDivContent{
+    width: 30.404vw;
+}

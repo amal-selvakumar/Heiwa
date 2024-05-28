@@ -4,6 +4,11 @@ import ayurvedaBeautyData from './AyurvedaBeauty.json';
 import flowerIcon from '../../../../public/Images/FlowerIcon.svg';
 
 export default function AyurvedaBeauty() {
+
+    const backgroundImages = {
+        backgroundImage: `url('../../../../public/Images/AyurvedaMassageVector.svg'), url('../../../../public/Images/AyurvedaBeautyVector.svg')`,
+        backgroundPosition: 'right center , center'
+    };
     
     const contenWidth={
         width:'58.328vw'
@@ -11,7 +16,7 @@ export default function AyurvedaBeauty() {
 
   return (
     <div className='ayurvedaBeauty'>
-      <AyurvedaTemplate2 data={ayurvedaBeautyData} title='AYURVEDA BEAUTY AND SKIN REJUVENATION'contentWidth={contenWidth} secondTitle='PACKAGE INCLUSIONS'>
+      <AyurvedaTemplate2 data={ayurvedaBeautyData} backgroundImages={backgroundImages} title='AYURVEDA BEAUTY AND SKIN REJUVENATION'contentWidth={contenWidth} secondTitle='PACKAGE INCLUSIONS'>
         <div className='packageInclusionDiv'>
             <div className='packageFlexDiv'>
                 <img src={flowerIcon} alt='flowerIcon'/>

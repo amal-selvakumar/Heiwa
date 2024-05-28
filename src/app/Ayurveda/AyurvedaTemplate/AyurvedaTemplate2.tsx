@@ -12,18 +12,19 @@ type AyurvedaTemplateData={
         content:string;
     },
     title:string;
+    backgroundImages:React.CSSProperties;
     contentWidth:React.CSSProperties;
     secondTitle:string;
     children:React.ReactNode;
 }
 
-export default function AyurvedaTemplate2({data,title,contentWidth,secondTitle,children}:AyurvedaTemplateData) {
+export default function AyurvedaTemplate2({data,title,contentWidth,secondTitle,children,backgroundImages}:AyurvedaTemplateData) {
   return (
     <div className='ayurvedaTemplate2'>
       <div className='template2Container'>
         <Navbar/>
 
-        <div className='template2Background'>
+        <div className='template2Background' style={backgroundImages}>
            <img src={data.images.imageUrl} alt='imageUrl'/>
         </div>
 

@@ -17,8 +17,6 @@
     height: 66.749vh;
     background: #E1C7A5;
     margin-top: 11.239vh;
-    background-image: url('../../../../public/Images/AyurvedaMassageVector.svg'),url('../../../../public/Images/AyurvedaBeautyVector.svg');
-    background-position: right center , center;
     background-repeat: no-repeat,no-repeat;
     display: flex;
     align-items: center;
@@ -26,6 +24,8 @@
 
 .template2Background>img{
     margin-left: 10.625vw;
+    margin-top: 2.741vh;
+    margin-bottom: 2.741vh;
 }
 
 .template2ContentDiv{
