@@ -1,6 +1,5 @@
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
-import Questions from '../Questions/Questions';
 import './Template2.css';
 import whatsappIcon from '../../../public/Images/WhatsappIcon.svg';
 

@@ -1,8 +1,6 @@
-import AyurvedaTemplate2 from '../Ayurveda/AyurvedaTemplate/AyurvedaTemplate2';
 import BookYourEscape from '../BookYourEscape/BookYourEscape';
 import Template2 from '../WellnessTemplate/Template2';
 import './WellnessRetreat.css';
-import wellnessRetreatData from './WellnessRetreat.json';
 import flowerIcon from '../../../public/Images/FlowerIcon.svg';
 
 export default function WellnessRetreat() {

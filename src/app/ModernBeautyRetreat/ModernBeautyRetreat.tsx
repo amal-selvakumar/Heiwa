@@ -1,4 +1,3 @@
-import { QueryStatus } from '@reduxjs/toolkit/query';
 import Template2 from '../WellnessTemplate/Template2';
 import './ModernBeautyRetreat.css';
 import Questions from '../Questions/Questions';
