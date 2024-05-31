@@ -6,7 +6,7 @@ import flowerIcon from '../../../../public/Images/FlowerIcon.svg';
 export default function AyurvedaBeauty() {
 
     const backgroundImages = {
-        backgroundImage: `url('../../../../public/Images/AyurvedaMassageVector.svg'), url('../../../../public/Images/AyurvedaBeautyVector.svg')`,
+        backgroundImage: `url('/Images/AyurvedaMassageVector.svg'), url('/Images/AyurvedaBeautyVector.svg')`,
         backgroundPosition: 'right center , center'
     };
     

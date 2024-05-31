@@ -12,7 +12,7 @@ type AyurvedaTemplateData={
         content:string;
     },
     title:string;
-    backgroundImages:React.CSSProperties;
+    backgroundImages?:React.CSSProperties;
     contentWidth:React.CSSProperties;
     secondTitle:string;
     children:React.ReactNode;
@@ -34,7 +34,7 @@ export default function AyurvedaTemplate2({data,title,contentWidth,secondTitle,c
             </div>
 
             <div className='template2Content'>
-              <span style={contentWidth}>{data.content}</span>
+              <span style={contentWidth}>{data?.content}</span>
             </div>
 
             <div className='template2SecondContentDiv'>

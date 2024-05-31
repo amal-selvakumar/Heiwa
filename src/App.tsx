@@ -11,6 +11,12 @@ import AyurvedaWeightManagement from './app/Ayurveda/AyurvedaWeightManagement/Ay
 import AyurvedaConsultation from './app/Ayurveda/AyurvedaConsultation/AyurvedaConsultation';
 import Gynecology from './app/Ayurveda/Gynecology/Gynecology';
 import Kalari from './app/Ayurveda/Kalari/Kalari';
+import WellnessRetreat from './app/WellnessRetreat/WellnessRetreat';
+import RelaxRetreat from './app/RelaxRetreat/RelaxRetreat';
+import ModernBeautyRetreat from './app/ModernBeautyRetreat/ModernBeautyRetreat';
+import HolisticWellness from './app/HolisticWomenWellness/HolisticWellness';
+import HormonalRetreat from './app/HormonalRetreat/HormonalRetreat';
+import BurnoutManagement from './app/BurnoutManagement/BurnoutManagement';
 
 
 function App() {
@@ -31,6 +37,12 @@ function App() {
           <Route path='/ayurveda-pre-consultation' element={<AyurvedaConsultation/>}/>
           <Route path='/gynecological-consultation' element={<Gynecology/>}/>
           <Route path='/kalari-treatment' element={<Kalari/>}/>
+          <Route path='/wellness-retreat' element={<WellnessRetreat/>}/>
+          <Route path='relax-retreat' element={<RelaxRetreat/>}/>
+          <Route path='/modern-retreat' element={<ModernBeautyRetreat/>}/>
+          <Route path='/holistic-retreat' element={<HolisticWellness/>}/>
+          <Route path='/hormonal-retreat' element={<HormonalRetreat/>}/>
+          <Route path='burnout-retreat' element={<BurnoutManagement/>}/>
         </Routes>
       </Router>
     </div>
